@@ -1,0 +1,88 @@
+{
+    "metadata": [{
+        "src": [{
+            "files": [
+                "**/kumaS.SimpleKVS.csproj",
+                "**/kumaS.SimpleKVS.Editor.External.csproj",
+                "**/kumaS.SimpleKVS.External.JsonDotNet.csproj",
+                "**/kumaS.SimpleKVS.External.MemPack.csproj",
+                "**/kumaS.SimpleKVS.External.MsgPack.csproj",
+                "**/kumaS.SimpleKVS.External.NetSerializer.csproj",
+                "**/kumaS.SimpleKVS.External.Protobuf.csproj",
+                "**/kumaS.SimpleKVS.External.TextDotJson.csproj",
+                "**/kumaS.SimpleKVS.Tests.csproj",
+                "**/kumaS.SimpleKVS.Tests.External.JsonDotNet.csproj",
+                "**/kumaS.SimpleKVS.Tests.External.MemPack.csproj",
+                "**/kumaS.SimpleKVS.Tests.External.MsgPack.csproj",
+                "**/kumaS.SimpleKVS.Tests.External.NetSerializer.csproj",
+                "**/kumaS.SimpleKVS.Tests.External.Protobuf.csproj",
+                "**/kumaS.SimpleKVS.Tests.External.TextDotJson.csproj"
+            ],
+            "src": "../Simple-KVS"
+        }],
+        "dest": "api",
+        "filter": "filterConfig.yml",
+        "shouldSkipMarkup": false,
+        "disableGitFeatures": false,
+        "disableDefaultFilter": true,
+        "properties": {
+            "DefineConstants": "ZIP_AVAILABLE;KVS_ENABLE_JSONDOTNET;KVS_ENABLE_JSONTEXT;KVS_ENABLE_NETSERIALIZER;KVS_ENABLE_PROTOBUF;KVS_ENABLE_MESSAGEPACK;KVS_ENABLE_MEMORYPACK;NUGET_PACKAGE_READY"
+        }
+    }],
+    "build": {
+        "globalMetadata": {
+            "_appTitle": "Simple KVS documentation",
+            "_appFooter": "Simple KVS documentation",
+            "_enableSearch": true,
+            "_enableNewTab": true,
+            "_disableContribution": false,
+            "_gitContribute": "https://github.com/kumaS-nu/Simple-KVS"
+        },
+        "content": [{
+                "files": [
+                    "api/**.yml",
+                    "api/index.md"
+                ]
+            },
+            {
+                "files": [
+                    "toc.yml",
+                    "*.md"
+                ]
+            }
+        ],
+        "resource": [{
+            "files": [
+                "**/images/**"
+            ]
+        }],
+        "overwrite": [{
+            "files": [
+                "apidoc/**.md"
+            ],
+            "exclude": [
+                "obj/**",
+                "**/docs"
+            ]
+        }],
+        "dest": "../docs",
+        "template": [
+            "default"
+        ],
+        "postProcessors": [],
+        "markdownEngineName": "markdig",
+        "noLangKeyword": false,
+        "keepFileLink": false,
+        "cleanupCacheHistory": false,
+        "disableGitFeatures": false,
+        "sitemap": {
+            "baseUrl": "https://kumaS-nu.github.io/Simple-KVS",
+            "changefreq": "weekly",
+            "fileOptions": {
+                "api/*": {
+                    "changefreq": "daily"
+                }
+            }
+        }
+    }
+}

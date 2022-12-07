@@ -1,0 +1,828 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://kumaS-nu.github.io/Simple-KVS/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://kumaS-nu.github.io/Simple-KVS/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/Program/Unity/Simple-KVS/docFX",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MessagePack.Formatters.kumaS.SimpleKVS.Tests.External.MsgPack.SampleData4Formatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MessagePack.Formatters.kumaS.SimpleKVS.Tests.External.MsgPack.SampleData4Formatter.html",
+          "hash": "POWRbtZ1e8NabFL2MeMwo1m5/dQG2mIuYiyrdaHjcW4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MessagePack.Formatters.kumaS.SimpleKVS.Tests.External.MsgPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MessagePack.Formatters.kumaS.SimpleKVS.Tests.External.MsgPack.html",
+          "hash": "gil/inXFBUnSpfbG30Z1cAIPlcZ1VeBn27czSvTQnec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MessagePack.Resolvers.GeneratedResolver.FormatterCache-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MessagePack.Resolvers.GeneratedResolver.FormatterCache-1.html",
+          "hash": "AoapVCipRl9ZcC21Hje0SvXzZNuNODHKcgyCVVQqUZo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MessagePack.Resolvers.GeneratedResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MessagePack.Resolvers.GeneratedResolver.html",
+          "hash": "6kZTQy1EbWkLNtq9wopVemi+JgPUSElGMY2prH+Ymjw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MessagePack.Resolvers.GeneratedResolverGetFormatterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MessagePack.Resolvers.GeneratedResolverGetFormatterHelper.html",
+          "hash": "msZ0/MLuQh+zG3NE2YMFYNSeuqsI2Ecwe4BmwqdZ8nQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MessagePack.Resolvers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MessagePack.Resolvers.html",
+          "hash": "HIQOZHyi41zU5bLlFFxW8atc8XP5wwBOUgKMa49UnPo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "WyKshdwdfaClZm9A5mYx2mGdZhYYtNrAM810UKll/hU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Editor.External.ExternalControll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Editor.External.ExternalControll.html",
+          "hash": "gSs/zta+mlI+VT1LoQWMapAxEOVvNq75ot1k2zZJO9A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Editor.External.ExternalControllWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Editor.External.ExternalControllWindow.html",
+          "hash": "P9NbTIktKfzf05mCLNo/m1K7HsVExQlQRxwlEwB2jt4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Editor.External.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Editor.External.html",
+          "hash": "lfUVdkxuK11Tb3foxWuSk95JlM7YLj8yH3vwXeoOWuk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.JsonDotNet.JsonDotNetSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.JsonDotNet.JsonDotNetSerializer.html",
+          "hash": "wnJTV+5iUW+xvoYkoHjFq52KXPpnjyl2YSGyD2lM6mU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.JsonDotNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.JsonDotNet.html",
+          "hash": "OxSPyr+zNPG4SyA78dpip7nYLCCPdpO26ZbL6CKo7No="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.MemPack.MemPackSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.MemPack.MemPackSerializer.html",
+          "hash": "J0KwRR19yX/5UltA6MZjQSGOey6VYxqqC+XmztwIRdY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.MemPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.MemPack.html",
+          "hash": "dyFAoxlEkRD+4C08HS1fcZVExleJWuceB6H3GB3fYow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.MsgPack.MsgPackLZ4Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.MsgPack.MsgPackLZ4Serializer.html",
+          "hash": "WLevK2VtIZepe+UBYxfbgN432Cg/qp7y6m0kPI+Rnr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.MsgPack.MsgPackSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.MsgPack.MsgPackSerializer.html",
+          "hash": "JY+1C72hs3M0kA/js67WSIwmq2cTzC6Kvg72GfXwks8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.MsgPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.MsgPack.html",
+          "hash": "qw1n6ySeaEQNI0RBp5XHfYcgaqDTGHUom/gTINdRN/8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.Net.NetSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.Net.NetSerializer.html",
+          "hash": "N7WSUMMD8XcENTeTeRNDsON8zJuqiIQmagcMFS/pK3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.Net.html",
+          "hash": "+KDt2jq06U7NfO5tadknmgutb1+3l9DGZyG4325eBsk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.ProtoBuf.ProtoBufSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.ProtoBuf.ProtoBufSerializer.html",
+          "hash": "7uL66VjUmjHxHRDXpXLB37H6AGXYRk/5VPQin2VYz9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.ProtoBuf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.ProtoBuf.html",
+          "hash": "FDqKHSl4MQK7PUWZ2uIPoWcpPtE1CvPIOUpQD/+Yze4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.TextDotJson.TextDotJsonSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.TextDotJson.TextDotJsonSerializer.html",
+          "hash": "0DcWCD7y5wsvLi4PL9DdA3VWpCYdEvqlfjDXbyeiT0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.External.TextDotJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.External.TextDotJson.html",
+          "hash": "oO7dpU092WppMDlxw4q3fMPDt6bU0j2O1IAN+plRuA8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.ISerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.ISerializable.html",
+          "hash": "Qdi0ihFK9zPuHuIFd6zpwzaLazE2u6aa4vg+PZcKCS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.ISerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.ISerializer.html",
+          "hash": "8Z9jtT97V2AGi61CLh3dRyxjwMKOq9EQ+wWi8dGPa+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.ISerializer4UnityObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.ISerializer4UnityObject.html",
+          "hash": "X6F2cVf0in4zA3ykbQryoFB2znDvhZEPCFju/tX1Iyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.InFileKVS-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.InFileKVS-1.html",
+          "hash": "JzSQE7d01miry1M/KUGsobNa5T03jczrt2tHBgiQGnI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.InFileKVS4UnityObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.InFileKVS4UnityObject-1.html",
+          "hash": "GD8Ey5W2Q5dMD4dPA37Hyz3uagkPo0pprgzi+FQf6PQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.InMemoryKVS-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.InMemoryKVS-1.html",
+          "hash": "MnmTTFar1MiMNo9RZRIMM+aDmRat96EJYELd5mClEX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.InMemoryKVS4UnityObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.InMemoryKVS4UnityObject-1.html",
+          "hash": "JmK2moJ2pSYTihdEWE2yrivGs9DU9hRyL3wzzAn/ahg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.JsonUtilitySerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.JsonUtilitySerializer.html",
+          "hash": "nzhSywhBlrBp6g4aRVX7q7OeeJfP8wT8+CNANdxQDkI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.JsonDotNet.JsonDotNetTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.JsonDotNet.JsonDotNetTest.html",
+          "hash": "4A8itipMsh+t5cGNWvy0eOX3BUNeGqaNIRJn5DJS3aA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.JsonDotNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.JsonDotNet.html",
+          "hash": "f0GvDiSV+OpgFJ+FcgStj96KgdjDB5u2zS3bixLcK0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.MemPackTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.MemPackTest.html",
+          "hash": "rrgtBwSm1epGMd+ngV0SvyyvwDYtmH47sA2uVMKkqaM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.SampleData5.SampleData5Formatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.SampleData5.SampleData5Formatter.html",
+          "hash": "YXKoL4fr4LWMiO6g5VHjc0afeeDW6AHzAko+CNsyDo8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.SampleData5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.SampleData5.html",
+          "hash": "4SB9Bc/+bWyL2iUHWvQN105zs1gmaAkEk05T/TZTsXE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.SampleMonoData5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.SampleMonoData5.html",
+          "hash": "0awzcAx3mxBa2FNI790QhzT6eltF6/5pqhTzYSYH3wQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.MemPack.html",
+          "hash": "wGbX3UqAIMzDdBLUoWRhs/nu/PIQQEyvKb88fzKofNQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.MsgPack.MsgPackTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.MsgPack.MsgPackTest.html",
+          "hash": "skq5pCn9hDbGkGmjCoP9CphB0DGDETHKB0TpfVu2Bv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.MsgPack.SampleData4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.MsgPack.SampleData4.html",
+          "hash": "i6YddVbtQCceWOQ7QEPPD9ooZmmmO3azB+QVLmovjmY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.MsgPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.MsgPack.html",
+          "hash": "g3E0BJYQM4/SD012N03fK4dQtetDoAij/uPKUNOFaBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.Net.NetSerializerTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.Net.NetSerializerTest.html",
+          "hash": "BkAQ4M6ycBCDAlTwsREtNjfwEcoM1DqEbcNs+3NzvBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.Net.html",
+          "hash": "l9cqJltBJTXKQGZmBRC+DIMrho59Tjrgj/Y0V7MjHJU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.TextDotJson.TextDotJsonTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.TextDotJson.TextDotJsonTest.html",
+          "hash": "obMZogxOM/xtdmvZ9a+Qs5uFyNLXVyGiNcHStzHo04s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.External.TextDotJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.External.TextDotJson.html",
+          "hash": "nIbr8B3aVUZKWrQ4uoqb+gpSchnq0a6T5wgq0D/BN3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.InFile4UnityObjectTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.InFile4UnityObjectTest.html",
+          "hash": "bEq5tU3iH8NRJNytgKINKu8tkhQ4Hy2pTiYPfmv5u48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.InFileTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.InFileTest.html",
+          "hash": "fWpYeVTMF6W896E6tD+xhjNOMBjwTtsAQettxVTYb/I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.InMemorySceneTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.InMemorySceneTest.html",
+          "hash": "HhxPrqCH+2+fKbOxoI9oTgqlvlZbXtHJEmuDbbu8r+k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.InMemoryTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.InMemoryTest.html",
+          "hash": "JdkzPoT2RmwxGMMHhSOOyrUvL6WFxBWteRL7f4laZug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.SMonoData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.SMonoData.html",
+          "hash": "ZeUKYdpYpXE5h9TEK3OPMbj7yDZbAdJ1L59Fk52soYw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.SampleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.SampleData.html",
+          "hash": "O5gea5gNKQzHO8wWEY4e0e2fjXQTzfITIYqys/8l4IE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.SampleData2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.SampleData2.html",
+          "hash": "6gSpb1pc0zd/ckVhmOPej/GsBmCAcA1J4dcOiKcq/Ns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.SampleMonoData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.SampleMonoData.html",
+          "hash": "64M2vExW0vBAMtxgTEQnATihIAn+iQYjd/3IpXdYUjk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.TaskExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.TaskExtension.html",
+          "hash": "h2uwa7+xb2KUS9/6a9XJXcLxaV3p6rZ2y4doeuBBWlM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.ValueTaskExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.ValueTaskExtension.html",
+          "hash": "bntpUe7NO3koKOokNa0GTqpbnT/nTxCAY52lyxIcLmo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.Tests.html",
+          "hash": "mqsnvPijsLBhmfZfV7Qr/Y1zKYNwoFdU/MwlU5KY8SU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.XMLSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.XMLSerializer.html",
+          "hash": "Fica3P0zpQnlJ/5+EQww3vSnFaycdRFrqGYOvz0grUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kumaS.SimpleKVS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kumaS.SimpleKVS.html",
+          "hash": "E/MOKezAq/X/HFq8Coyey6I36Y8ruElW8LPQssScYH8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Jv327V0FlhcvQt6TV2T0W5eGTTYcBcKuj4in0eSVVBg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "QqoPBgOq2M4TRVBVX4jvKdpeLX0jCA5wve56O3LWDhk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "s+UecGKJLe11K3w4+MJjx6QoiqktkO8teeQG06lk8L0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 57,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

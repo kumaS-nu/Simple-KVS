@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>English | Simple KVS documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="English | Simple KVS documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="english">English</h1>
+
+<img src="images/Logo.svg" alt="Simple KVS logo" height="120">
+<h2 id="welcome-to-simple-kvs">Welcome to Simple KVS</h2>
+<p><a href="https://github.com/kumaS-nu/Simple-KVS/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kumaS-nu/Simple-KVS" alt="GitHub"></a>
+<a href="https://github.com/kumaS-nu/Simple-KVS/actions"><img src="https://github.com/kumaS-nu/Simple-KVS/workflows/Test/badge.svg?branch=main&amp;event=push" alt="Test"></a>
+<a href="https://github.com/kumaS-nu/Simple-KVSy/releases"><img src="https://img.shields.io/github/downloads/kumaS-nu/Simple-KVS/total" alt="GitHub all releases"></a>
+<a href="https://github.com/kumaS-nu/Simple-KVS/releases"><img src="https://img.shields.io/github/downloads-pre/kumaS-nu/Simple-KVS/latest/total" alt="GitHub release (latest by date including pre-releases)"></a>
+<a href="https://www.codefactor.io/repository/github/kumaS-nu/Simple-KVS"><img src="https://img.shields.io/codefactor/grade/github/kumaS-nu/Simple-KVS" alt="CodeFactor Grade"></a>
+<a href="https://openupm.com/packages/org.kumas.simple-kvs/"><img src="https://img.shields.io/npm/v/org.kumas.simple-kvs?label=openupm&amp;registry_uri=https://package.openupm.com" alt="openupm"></a></p>
+<p>This library provides a very simple Key Value Store (not <strong>Server</strong>) for Unity.
+This KVS is helpful for the following purposes.</p>
+<ul>
+<li>Transferring data between scenes</li>
+<li>Save and load the data</li>
+</ul>
+<p><a href="#%E6%97%A5%E6%9C%AC%E8%AA%9E">日本語はこちら。</a></p>
+<h2 id="installation">Installation</h2>
+<h3 id="via-upm-unity-package-manager">via UPM (Unity Package Manager)</h3>
+<p>There are two ways to install the package: using the UPM (Unity Package Manager) or importing the .unitypackage.</p>
+<h4 id="use-this-git-url">Use This Git URL</h4>
+<ol>
+<li>Open the Package Manager window.</li>
+<li>Click the <strong>add</strong> (+) button in the status bar.</li>
+<li>Select <strong>Add package from git URL</strong>.</li>
+<li>Enter &quot;<code>https://github.com/kumaS-nu/Simple-KVS.git?path=Simple-KVS/Packages/Simple KVS</code>&quot; or &quot;<code>git@github.com:kumaS-nu/Simple-KVS.git?path=Simple-KVS/Packages/Simple KVS</code>&quot;.</li>
+<li>Click <strong>Add</strong>.</li>
+</ol>
+<p>For more information, see the <a href="https://docs.unity3d.com/Manual/upm-ui-giturl.html">Official page (Installing from a Git URL - Unity)</a>.</p>
+<h4 id="use-openupm">Use OpenUPM</h4>
+<ol>
+<li>If you have not installed OpenUPM-CLI, run the following command to install OpenUPM-CLI. (Node.js 12 is required.)
+<pre><code class="lang-bash">npm install -g openupm-cli
+</code></pre>
+</li>
+<li>Go to the unity project folder</li>
+<li>Run the following command to install &quot;NuGet importer for Unity&quot; in your project.
+<pre><code class="lang-bash">openupm add org.kumas.simple-kvs
+</code></pre>
+</li>
+</ol>
+<p>For more information, see the <a href="https://openupm.com/docs/getting-started.html">Official page (Getting Started with OpenUPM-CLI - OpenUPM)</a></p>
+<h3 id="via-unitypackage">via .unitypackage</h3>
+<ol>
+<li>Go to the <a href="https://github.com/kumaS-nu/Simple-KVS/releases">release page</a> and download the zip file of the version you need.</li>
+<li>Extract the zip file and import the .unitypackage into your project.</li>
+</ol>
+<h2 id="usage">Usage</h2>
+<p>This KVS has <code>InMemoryKVS&lt;T&gt;</code>, <code>InMemoryKVS4UnityObject&lt;T&gt;</code>, <code>InFileKVS&lt;S&gt;</code> and <code>InFileKVS4UnityObject&lt;S&gt;</code>.</p>
+<h3 id="inmemorykvst"><code>InMemoryKVS&lt;T&gt;</code></h3>
+<p>Store data in memory. This class cannot store the data inherited from <code>Unity.Object</code> (such as <code>MonoBehaviour</code>). Instead, use <code>InMemoryKVS4UnityObject&lt;T&gt;</code> for these data.</p>
+<pre><code class="lang-csharp">
+var data = new Data { someData = &quot;someData&quot; };
+
+// Store the data in memory. Keys are recorded by each type.
+InMemoryKVS&lt;Data&gt;.Set(&quot;data_key&quot;, data);
+
+// Get the data from memory. Note that data is deleted in memory when getting data by default.
+var received = InMemoryKVS&lt;Data&gt;.Get(&quot;data_key&quot;);
+
+// Of course, you can also use TryGet().
+var (isStored, value) = InMemoryKVS&lt;Data&gt;.TryGet(&quot;data_key&quot;);
+
+</code></pre>
+<h3 id="inmemorykvs4unityobjectt"><code>InMemoryKVS4UnityObject&lt;T&gt;</code></h3>
+<p><code>InMemoryKVS4UnityObject&lt;T&gt;</code> is almost the same as <code>InMemoryKVS&lt;T&gt;.</code> However, the storing data must implement <code>ISerializable.</code></p>
+<pre><code class="lang-csharp">
+class Sample : MonoBehaviour, ISerializable
+{
+    private string someData;
+
+    public object Serialize()
+    {
+        // Serialize some data that does not inherit Unity.Object.
+    }
+
+    public void Deserialize(object data)
+    {
+        // Apply the stored data to this instance.
+    }
+}
+
+// Store the data in memory. Keys are recorded by each type.
+InMemoryKVS4Unity&lt;Sample&gt;.Set(&quot;data_key&quot;, data);
+
+var rcv = gameObject.GetComponent&lt;Sample&gt;();
+
+// Get the data from memory. Note that data is deleted in memory when getting data by default.
+InMemoryKVS4UnityObject&lt;Sample&gt;.Get(&quot;data_key&quot;, rcv);
+
+// Of course, you can also use TryGet().
+var isStored = InMemoryKVS4UnityObject&lt;Sample&gt;.TryGet(&quot;data_key&quot;, rcv);
+
+</code></pre>
+<h3 id="infilekvss"><code>InFileKVS&lt;S&gt;</code></h3>
+<p>Save the data to a file. The generics type specifies the serializer to use and must inherit from <code>ISerializer</code>. <code>InFileKVS&lt;S&gt;</code> cannot store the data inherited from <code>Unity.Object</code> (such as <code>MonoBehaviour</code>). Instead, use <code>InFileKVS4UnityObject&lt;S&gt;</code> for these data.</p>
+<pre><code class="lang-csharp">
+var data = new Data { someData = &quot;someData&quot; };
+
+// Save the data in file. Keys are recorded by each type.
+InFileKVS&lt;JsonUtilitySerializer&gt;.Set&lt;Data&gt;(&quot;data_key&quot;, data);
+
+// Load data from file.
+var received = InFileKVS&lt;JsonUtilitySerializer&gt;.Get&lt;Data&gt;(&quot;data_key&quot;);
+
+// Of course, you can also use TryGet().
+var (isStored, value) = InFileKVS&lt;JsonUtilitySerializer&gt;.TryGet&lt;Data&gt;(&quot;data_key&quot;);
+
+// Asynchronous API is also available.
+var received2 = await InFileKVS&lt;JsonUtilitySerializer&gt;.GetAsync&lt;Data&gt;(&quot;data_key&quot;);
+
+</code></pre>
+<h3 id="infilekvs4unityobjects"><code>InFileKVS4UnityObject&lt;S&gt;</code></h3>
+<p><code>InFileKVS4UnityObject&lt;S&gt;</code> is almost the same as <code>InFileKVS&lt;S&gt;</code>. The generics type specifies the serializer to use and must inherit from <code>ISerializer4UnityObject</code>.</p>
+<pre><code class="lang-csharp">
+var data = gameObject.GetComponent&lt;MonoData&gt;();
+
+// Save the data in file. Keys are recorded by each type.
+InFileKVS4UnityObject&lt;JsonUtilitySerializer&gt;.Set&lt;Data&gt;(&quot;data_key&quot;, data);
+
+var rcv = gameObject.GetComponent&lt;MonoData&gt;();
+
+// Load data from file.
+InFileKVS4UnityObject&lt;JsonUtilitySerializer&gt;.Get&lt;Data&gt;(&quot;data_key&quot;, rcv);
+
+// Of course, you can also use TryGet().
+var isStored = InMemoryKVS&lt;JsonUtilitySerializer&gt;.TryGet&lt;Data&gt;(&quot;data_key&quot;, rcv);
+
+// Asynchronous API is also available.
+await InMemoryKVS&lt;JsonUtilitySerializer&gt;.GetAsync&lt;Data&gt;(&quot;data_key&quot;, rcv);
+
+</code></pre>
+<h2 id="environment">Environment</h2>
+<p>This library works with Unity2021.2 and later.</p>
+<h2 id="api">API</h2>
+<p>The API documentation is available <a href="api/index.html">here</a>.</p>
+<h2 id="contributing">Contributing</h2>
+<p>We welcome any contributions (bug reports, desired features). If you write the problem in the issue, I will fix it.</p>
+<h2 id="license">License</h2>
+<p>This package is under <a href="https://github.com/kumaS-nu/Simple-KVS/blob/master/LICENSE">MIT License 2.0</a>.</p>
+<h2 id="author">Author</h2>
+<p><a href="https://github.com/kumaS-nu">kumaS</a> (If I cannot use this name because it is used, add -nu as a tag.)<br>
+<a href="https://twitter.com/kumaSVTuber1">Twitter</a></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<h1 id="日本語">日本語</h1>
+<img src="images/Logo.svg" alt="Simple KVS logo" height="120">
+<h2 id="welcome-to-simple-kvs-1">Welcome to Simple KVS</h2>
+<p><a href="https://github.com/kumaS-nu/Simple-KVS/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kumaS-nu/Simple-KVS" alt="GitHub"></a>
+<a href="https://github.com/kumaS-nu/Simple-KVS/actions"><img src="https://github.com/kumaS-nu/Simple-KVS/workflows/Test/badge.svg?branch=main&amp;event=push" alt="Test"></a>
+<a href="https://github.com/kumaS-nu/Simple-KVSy/releases"><img src="https://img.shields.io/github/downloads/kumaS-nu/Simple-KVS/total" alt="GitHub all releases"></a>
+<a href="https://github.com/kumaS-nu/Simple-KVS/releases"><img src="https://img.shields.io/github/downloads-pre/kumaS-nu/Simple-KVS/latest/total" alt="GitHub release (latest by date including pre-releases)"></a>
+<a href="https://www.codefactor.io/repository/github/kumaS-nu/Simple-KVS"><img src="https://img.shields.io/codefactor/grade/github/kumaS-nu/Simple-KVS" alt="CodeFactor Grade"></a>
+<a href="https://openupm.com/packages/org.kumas.simple-kvs/"><img src="https://img.shields.io/npm/v/org.kumas.simple-kvs?label=openupm&amp;registry_uri=https://package.openupm.com" alt="openupm"></a></p>
+<p>このライブラリはとてもシンプルなUnity向けのKey Value Store (<strong>Server</strong>ではない)を提供します。
+このKVSは以下の用途で役に立ちます。</p>
+<ul>
+<li>シーン間のデータの受け渡し</li>
+<li>データの保存と読み込み</li>
+</ul>
+<h2 id="インストール方法">インストール方法</h2>
+<h3 id="upm-unity-package-manager-を使う">UPM (Unity Package Manager) を使う</h3>
+<p>UPMを使って導入するには、このGit URLを指定する。または、OpenUPMを使って導入するという二通りあります。</p>
+<h4 id="git-url-を指定する">Git URL を指定する</h4>
+<ol>
+<li>Package Managerウィンドウを開く</li>
+<li>ステータスバーの <strong>Add</strong> (+) ボタンをクリック</li>
+<li><strong>Add package from git URL</strong> を選択</li>
+<li>「<code>https://github.com/kumaS-nu/Simple-KVS.git?path=Simple-KVS/Packages/Simple KVS</code>」または「<code>git@github.com:kumaS-nu/Simple-KVS.git?path=Simple-KVS/Packages/Simple KVS</code>」を入力</li>
+<li><strong>Add</strong> をクリック</li>
+</ol>
+<p>詳細は<a href="https://docs.unity3d.com/ja/2019.4/Manual/upm-ui-giturl.html">公式ページ(Git URL からのインストール - Unity)</a>をご覧ください。</p>
+<h4 id="openupm-を利用する">OpenUPM を利用する</h4>
+<ol>
+<li>OpenUPM-CLI をインストールしていない場合は、以下のコマンドで OpenUPM-CLI をインストールする。(Node.js 12が必要です。)
+<pre><code class="lang-bash">npm install -g openupm-cli
+</code></pre>
+</li>
+<li>インストールする予定のプロジェクトのフォルダへ移動する。</li>
+<li>以下のコマンドで、プロジェクトにインストールする。
+<pre><code class="lang-bash">openupm add org.kumas.simple-kvs
+</code></pre>
+</li>
+</ol>
+<p>詳細は<a href="https://openupm.com/docs/getting-started.html">公式ページ(Getting Started with OpenUPM-CLI - OpenUPM)</a>をご覧ください。</p>
+<h3 id="unitypackage-で導入する">.unitypackage で導入する</h3>
+<ol>
+<li><a href="https://github.com/kumaS-nu/Simple-KVS/releases">リリースページ</a>へ行き、必要なバージョンのzipファイルをダウンロードする。</li>
+<li>zipファイルを解凍し、中の .unitypackage をプロジェクトにインポートする。</li>
+</ol>
+<h2 id="使い方">使い方</h2>
+<p>このKVSには<code>InMemoryKVS&lt;T&gt;</code>・<code>InMemoryKVS4UnityObject&lt;T&gt;</code>・<code>InFileKVS&lt;S&gt;</code>・<code>InFileKVS4UnityObject&lt;S&gt;</code>があります。</p>
+<h3 id="inmemorykvst-1"><code>InMemoryKVS&lt;T&gt;</code></h3>
+<p>メモリ内に保存します。<code>Unity.Object</code>を継承したクラス（<code>MonoBehaviour</code>など）は使えません。<code>InMemoryKVS4UnityObject&lt;T&gt;</code>を使用して下さい。</p>
+<pre><code class="lang-csharp">
+var data = new Data { someData = &quot;someData&quot; };
+
+// メモリにデータを渡す。キーは型ごとに保存される。
+InMemoryKVS&lt;Data&gt;.Set(&quot;data_key&quot;, data);
+
+// メモリからデータを受け取る。デフォルトでは取得するとデータは消去されるため注意。
+var received = InMemoryKVS&lt;Data&gt;.Get(&quot;data_key&quot;);
+
+// もちろんTryGetもできる。
+var (isStored, value) = InMemoryKVS&lt;Data&gt;.TryGet(&quot;data_key&quot;);
+
+</code></pre>
+<h3 id="inmemorykvs4unityobjectt-1"><code>InMemoryKVS4UnityObject&lt;T&gt;</code></h3>
+<p><code>InMemoryKVS&lt;T&gt;</code>とほぼ変わりません。ただし、データは<code>ISerializable</code>を実装する必要があります。</p>
+<pre><code class="lang-csharp">
+class Sample : MonoBehaviour, ISerializable
+{
+    private string someData;
+
+    public object Serialize()
+    {
+        // Unity.Objectを継承しない何らかのデータにシリアライズする。
+    }
+
+    public void Deserialize(object data)
+    {
+        // 保存したデータをこのインスタンスに適用する。
+    }
+}
+
+// メモリにデータを渡す。キーは型名ごとに保存される。
+InMemoryKVS4Unity&lt;Sample&gt;.Set(&quot;data_key&quot;, data);
+
+// メモリからデータを受け取る。デフォルトでは取得するとデータは消去されるため注意。
+InMemoryKVS4UnityObject&lt;Sample&gt;.Get(&quot;data_key&quot;, received);
+
+// もちろんTryGetもできる。
+isStored = InMemoryKVS4UnityObject&lt;Sample&gt;.TryGet(&quot;data_key&quot;, value);
+
+</code></pre>
+<h3 id="infilekvss-1"><code>InFileKVS&lt;S&gt;</code></h3>
+<p>ファイルに保存します。ジェネリクスの型は使用するシリアライザを指定し<code>ISerializer</code>を継承する必要があります。<code>Unity.Object</code>を継承したクラス（<code>MonoBehaviour</code>など）は使えません。<code>InFileKVS4UnityObject&lt;T&gt;</code>を使用して下さい。</p>
+<pre><code class="lang-csharp">
+var data = new Data { someData = &quot;someData&quot; };
+
+// ファイルにデータを保存する。キーは型名ごとに保存される。
+InFileKVS&lt;JsonUtilitySerializer&gt;.Set&lt;Data&gt;(&quot;data_key&quot;, data);
+
+// ファイルからデータを取得する。
+var received = InFileKVS&lt;JsonUtilitySerializer&gt;.Get&lt;Data&gt;(&quot;data_key&quot;);
+
+// もちろんTryGetもできる。
+var (isStored, value) = InFileKVS&lt;JsonUtilitySerializer&gt;.TryGet&lt;Data&gt;(&quot;data_key&quot;);
+
+// 非同期にも対応。
+var received2 = await InFileKVS&lt;JsonUtilitySerializer&gt;.GetAsync&lt;Data&gt;(&quot;data_key&quot;);
+
+</code></pre>
+<h3 id="infilekvs4unityobjects-1"><code>InFileKVS4UnityObject&lt;S&gt;</code></h3>
+<p><code>InFileKVS&lt;S&gt;</code>とほぼ変わりません。ジェネリクスの型は使用するシリアライザを指定し<code>ISerializer4UnityObject</code>を継承する必要があります。</p>
+<pre><code class="lang-csharp">
+var data = gameObject.GetComponent&lt;MonoData&gt;();
+
+// ファイルにデータを保存する。キーは型名ごとに保存される。
+InFileKVS4UnityObject&lt;JsonUtilitySerializer&gt;.Set&lt;Data&gt;(&quot;data_key&quot;, data);
+
+var rcv = gameObject.GetComponent&lt;MonoData&gt;();
+
+// ファイルからデータを取得する。
+InFileKVS4UnityObject&lt;JsonUtilitySerializer&gt;.Get&lt;Data&gt;(&quot;data_key&quot;, rcv);
+
+// もちろんTryGetもできる。
+var isStored = InMemoryKVS&lt;JsonUtilitySerializer&gt;.TryGet&lt;Data&gt;(&quot;data_key&quot;, rcv);
+
+// 非同期にも対応。
+await InMemoryKVS&lt;JsonUtilitySerializer&gt;.GetAsync&lt;Data&gt;(&quot;data_key&quot;, rcv);
+
+</code></pre>
+<h2 id="動作環境">動作環境</h2>
+<p>Unity2021.2以降であれば動きます。</p>
+<h2 id="api-1">API</h2>
+<p>APIのドキュメントは<a href="api/index.html">こちら</a>にあります。ご活用ください。</p>
+<h2 id="コントリビュート">コントリビュート</h2>
+<p>どんなコントリビュート（バグ報告やほしい機能）でもしていただけるとありがたいです。issueに書いてくれれば直しときます。</p>
+<h2 id="ライセンス">ライセンス</h2>
+<p>これについては、<a href="https://github.com/kumaS-nu/Simple-KVS/blob/master/LICENSE">MIT License</a> です。</p>
+<h2 id="製作者">製作者</h2>
+<p><a href="https://github.com/kumaS-nu">kumaS</a> (名前が被って使えないときはタグとして -nu をつけてる。)<br>
+<a href="https://twitter.com/kumaSVTuber1">Twitter</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Simple KVS documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
