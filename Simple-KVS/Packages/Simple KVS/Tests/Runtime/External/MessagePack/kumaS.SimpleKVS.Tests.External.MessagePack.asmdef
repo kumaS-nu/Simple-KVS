@@ -1,0 +1,26 @@
+{
+    "name": "kumaS.SimpleKVS.Tests.External.MsgPack",
+    "rootNamespace": "kumaS.SimpleKVS.Tests.External.MsgPack",
+    "references": [
+        "UnityEngine.TestRunner",
+        "kumaS.SimpleKVS",
+        "kumaS.SimpleKVS.Tests",
+        "MessagePack.Annotations",
+        "kumaS.SimpleKVS.External.MsgPack",
+        "MessagePack"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "KVS_ENABLE_MESSAGEPACK"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

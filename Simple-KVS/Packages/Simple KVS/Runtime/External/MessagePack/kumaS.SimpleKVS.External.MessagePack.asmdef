@@ -1,0 +1,19 @@
+{
+    "name": "kumaS.SimpleKVS.External.MsgPack",
+    "rootNamespace": "kumaS.SimpleKVS.External.MsgPack",
+    "references": [
+        "GUID:72d43b09f6437354e95002e33d9aece1",
+        "GUID:bbde805d927e795439d7a746d1749cab"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "KVS_ENABLE_MESSAGEPACK"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

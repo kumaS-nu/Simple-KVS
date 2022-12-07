@@ -1,0 +1,30 @@
+{
+    "name": "kumaS.SimpleKVS.Tests.External.TextDotJson",
+    "rootNamespace": "kumaS.SimpleKVS.Tests.External.TextDotJson",
+    "references": [
+        "UnityEngine.TestRunner",
+        "kumaS.SimpleKVS",
+        "kumaS.SimpleKVS.Tests",
+        "kumaS.SimpleKVS.External.TextDotJson"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "KVS_ENABLE_JSONTEXT"
+    ],
+    "versionDefines": [
+        {
+            "name": "org.kumas.nuget-importer",
+            "expression": "",
+            "define": "USE_NUGET_IMPORTER"
+        }
+    ],
+    "noEngineReferences": false
+}

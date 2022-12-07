@@ -1,0 +1,25 @@
+{
+    "name": "kumaS.SimpleKVS.Tests.External.MemPack",
+    "rootNamespace": "kumaS.SimpleKVS.Tests.External.MemPack",
+    "references": [
+        "UnityEngine.TestRunner",
+        "kumaS.SimpleKVS",
+        "kumaS.SimpleKVS.Tests",
+        "kumaS.SimpleKVS.External.MemPack",
+        "MemoryPack"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "KVS_ENABLE_MEMORYPACK"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

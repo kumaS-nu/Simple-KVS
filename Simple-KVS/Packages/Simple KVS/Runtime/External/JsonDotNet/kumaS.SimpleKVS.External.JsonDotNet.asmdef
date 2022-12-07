@@ -1,0 +1,18 @@
+{
+    "name": "kumaS.SimpleKVS.External.JsonDotNet",
+    "rootNamespace": "kumaS.SimpleKVS.External.JsonDotNet",
+    "references": [
+        "GUID:72d43b09f6437354e95002e33d9aece1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "KVS_ENABLE_JSONDOTNET"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,46 @@
+{
+    "managedList": [
+        {
+            "packageName": "System.Text.Json",
+            "fileNames": [
+                "System.Text.Json"
+            ]
+        },
+        {
+            "packageName": "Microsoft.Bcl.AsyncInterfaces",
+            "fileNames": [
+                "Microsoft.Bcl.AsyncInterfaces"
+            ]
+        },
+        {
+            "packageName": "System.Text.Encodings.Web",
+            "fileNames": [
+                "System.Text.Encodings.Web"
+            ]
+        },
+        {
+            "packageName": "NetSerializer",
+            "fileNames": [
+                "NetSerializer"
+            ]
+        },
+        {
+            "packageName": "protobuf-net",
+            "fileNames": [
+                "protobuf-net"
+            ]
+        },
+        {
+            "packageName": "protobuf-net.Core",
+            "fileNames": [
+                "protobuf-net.Core"
+            ]
+        },
+        {
+            "packageName": "System.Collections.Immutable",
+            "fileNames": [
+                "System.Collections.Immutable"
+            ]
+        }
+    ]
+}

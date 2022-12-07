@@ -1,0 +1,24 @@
+{
+    "name": "kumaS.SimpleKVS.External.TextDotJson",
+    "rootNamespace": "kumaS.SimpleKVS.External.TextDotJson",
+    "references": [
+        "GUID:72d43b09f6437354e95002e33d9aece1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "KVS_ENABLE_JSONTEXT"
+    ],
+    "versionDefines": [
+        {
+            "name": "org.kumas.nuget-importer",
+            "expression": "",
+            "define": "USE_NUGET_IMPORTER"
+        }
+    ],
+    "noEngineReferences": false
+}

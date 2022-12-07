@@ -1,0 +1,24 @@
+{
+    "name": "org.kumas.simple-kvs",
+    "version": "1.0.0",
+    "displayName": "Simple KVS",
+    "description": "Simple Key Value Store for Unity.",
+    "unity": "2019.4",
+    "keywords": [
+        "KVS"
+    ],
+    "author": {
+        "name": "kumaS",
+        "email": "kumas.kumachan@gmail.com",
+        "url": "https://github.com/kumaS-nu/Simple-KVS"
+    },
+    "changelogUrl": "https://github.com/kumaS-nu/Simple-KVS/blob/main/Packages/Simple%20KVS/CHANGELOG.md",
+    "documentationUrl": "https://github.com/kumaS-nu/Simple-KVS/tree/main/Packages/Simple%20KVS/Documentation~",
+    "license": "MIT",
+    "licensesUrl": "https://github.com/kumaS-nu/Simple-KVS/blob/main//Packages/Simple%20KVS/LICENSE.md",
+    "samples": [{
+        "displayName": "Between scene",
+        "description": "Send and receve data between scene with InMemoryKVS",
+        "path": "Samples~/BetweenScenes"
+    }]
+}

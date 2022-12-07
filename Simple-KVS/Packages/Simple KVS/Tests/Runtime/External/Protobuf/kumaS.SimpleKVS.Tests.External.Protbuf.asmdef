@@ -1,0 +1,32 @@
+{
+    "name": "kumaS.SimpleKVS.Tests.External.Protbuf",
+    "rootNamespace": "kumaS.SimpleKVS.Tests.External.Protbuf",
+    "references": [
+        "UnityEngine.TestRunner",
+        "kumaS.SimpleKVS",
+        "kumaS.SimpleKVS.Tests",
+        "kumaS.SimpleKVS.External.Protobuf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "protobuf-net.dll",
+        "protobuf-net.Core.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "KVS_ENABLE_PROTOBUF"
+    ],
+    "versionDefines": [
+        {
+            "name": "org.kumas.nuget-importer",
+            "expression": "",
+            "define": "USE_NUGET_IMPORTER"
+        }
+    ],
+    "noEngineReferences": false
+}

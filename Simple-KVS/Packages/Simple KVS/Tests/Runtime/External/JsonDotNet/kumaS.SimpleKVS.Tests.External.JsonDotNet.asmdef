@@ -1,0 +1,24 @@
+{
+    "name": "kumaS.SimpleKVS.Tests.External.JsonDotNet",
+    "rootNamespace": "kumaS.SimpleKVS.Tests.External.JsonDotNet",
+    "references": [
+        "UnityEngine.TestRunner",
+        "kumaS.SimpleKVS",
+        "kumaS.SimpleKVS.Tests",
+        "kumaS.SimpleKVS.External.JsonDotNet"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "KVS_ENABLE_JSONDOTNET"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

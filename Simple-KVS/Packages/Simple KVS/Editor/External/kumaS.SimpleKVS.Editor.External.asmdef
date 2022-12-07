@@ -1,0 +1,18 @@
+{
+    "name": "kumaS.SimpleKVS.Editor.External",
+    "rootNamespace": "kumaS.SimpleKVS.Editor.External",
+    "references": [
+        "GUID:72d43b09f6437354e95002e33d9aece1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

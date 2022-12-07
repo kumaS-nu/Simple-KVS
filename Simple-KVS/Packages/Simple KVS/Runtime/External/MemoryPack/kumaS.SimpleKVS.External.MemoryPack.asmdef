@@ -1,0 +1,19 @@
+{
+    "name": "kumaS.SimpleKVS.External.MemPack",
+    "rootNamespace": "kumaS.SimpleKVS.External.MmemPack",
+    "references": [
+        "GUID:72d43b09f6437354e95002e33d9aece1",
+        "GUID:756335c0388f7114790e504ed368ae1d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "KVS_ENABLE_MEMORYPACK"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

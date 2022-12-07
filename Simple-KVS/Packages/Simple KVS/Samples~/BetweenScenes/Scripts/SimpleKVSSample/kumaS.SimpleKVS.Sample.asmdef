@@ -1,0 +1,16 @@
+{
+    "name": "kumaS.SimpleKVS.Sample",
+    "rootNamespace": "kumaS.SimpleKVS.Sample",
+    "references": [
+        "GUID:72d43b09f6437354e95002e33d9aece1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

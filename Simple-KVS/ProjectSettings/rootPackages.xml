@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <package id="System.Text.Json" version="7.0.0" targetFramework="netstandard2.0" allowedVersions="[7.0.0]" />
+  <package id="NetSerializer" version="4.1.2" targetFramework="net45" allowedVersions="[4.1.2]" />
+  <package id="protobuf-net" version="3.1.25" targetFramework="netstandard2.0" allowedVersions="[3.1.25]" />
+</packages>
