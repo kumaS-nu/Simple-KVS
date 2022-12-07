@@ -69,7 +69,7 @@ This KVS is helpful for the following purposes.
 
 This KVS has `InMemoryKVS<T>`, `InMemoryKVS4UnityObject<T>`, `InFileKVS<S>` and `InFileKVS4UnityObject<S>`.
 
-### InMemoryKVS<T>
+### `InMemoryKVS<T>`
 
 Store data in memory. This class cannot store the data inherited from `Unity.Object` (such as `MonoBehaviour`). Instead, use `InMemoryKVS4UnityObject<T>` for these data.
 
@@ -88,7 +88,7 @@ var (isStored, value) = InMemoryKVS<Data>.TryGet("data_key");
 
 ```
 
-### InMemoryKVS4UnityObject<T>
+### `InMemoryKVS4UnityObject<T>`
 
 `InMemoryKVS4UnityObject<T>` is almost the same as `InMemoryKVS<T>.` However, the storing data must implement `ISerializable.`
 
@@ -122,7 +122,7 @@ var isStored = InMemoryKVS4UnityObject<Sample>.TryGet("data_key", rcv);
 
 ```
 
-### InFileKVS<S>
+### `InFileKVS<S>`
 
 Save the data to a file. The generics type specifies the serializer to use and must inherit from `ISerializer`. `InFileKVS<S>` cannot store the data inherited from `Unity.Object` (such as `MonoBehaviour`). Instead, use `InFileKVS4UnityObject<S>` for these data.
 
@@ -144,7 +144,7 @@ var received2 = await InFileKVS<JsonUtilitySerializer>.GetAsync<Data>("data_key"
 
 ```
 
-### InFileKVS4UnityObject<S>
+### `InFileKVS4UnityObject<S>`
 
 `InFileKVS4UnityObject<S>` is almost the same as `InFileKVS<S>`. The generics type specifies the serializer to use and must inherit from `ISerializer4UnityObject`.
 

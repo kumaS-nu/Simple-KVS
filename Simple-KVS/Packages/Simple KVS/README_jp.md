@@ -67,7 +67,7 @@
 
 このKVSには`InMemoryKVS<T>`・`InMemoryKVS4UnityObject<T>`・`InFileKVS<S>`・`InFileKVS4UnityObject<S>`があります。
 
-### InMemoryKVS<T>
+### `InMemoryKVS<T>`
 
 メモリ内に保存します。`Unity.Object`を継承したクラス（`MonoBehaviour`など）は使えません。`InMemoryKVS4UnityObject<T>`を使用して下さい。
 
@@ -86,7 +86,7 @@ var (isStored, value) = InMemoryKVS<Data>.TryGet("data_key");
 
 ```
 
-### InMemoryKVS4UnityObject<T>
+### `InMemoryKVS4UnityObject<T>`
 
 `InMemoryKVS<T>`とほぼ変わりません。ただし、データは`ISerializable`を実装する必要があります。
 
@@ -118,7 +118,7 @@ isStored = InMemoryKVS4UnityObject<Sample>.TryGet("data_key", value);
 
 ```
 
-### InFileKVS<S>
+### `InFileKVS<S>`
 
 ファイルに保存します。ジェネリクスの型は使用するシリアライザを指定し`ISerializer`を継承する必要があります。`Unity.Object`を継承したクラス（`MonoBehaviour`など）は使えません。`InFileKVS4UnityObject<T>`を使用して下さい。
 
@@ -140,7 +140,7 @@ var received2 = await InFileKVS<JsonUtilitySerializer>.GetAsync<Data>("data_key"
 
 ```
 
-### InFileKVS4UnityObject<S>
+### `InFileKVS4UnityObject<S>`
 
 `InFileKVS<S>`とほぼ変わりません。ジェネリクスの型は使用するシリアライザを指定し`ISerializer4UnityObject`を継承する必要があります。
 
