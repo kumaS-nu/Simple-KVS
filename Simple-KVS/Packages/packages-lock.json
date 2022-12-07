@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "05786033c1990cc99a61b09aff9ef7c77994dee7"
+      "hash": "0b98da14c1564ba2dc46271ce6888dd09083e0ee"
     },
     "com.unity.collab-proxy": {
       "version": "1.15.18",
@@ -193,7 +193,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "08b18e0817f306030cb85b8513207a8dd785bab2"
+      "hash": "479efc0a741bc872d817ba9c3831489489aa4e14"
     },
     "org.kumas.simple-kvs": {
       "version": "file:Simple KVS",

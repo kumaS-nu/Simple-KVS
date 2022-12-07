@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "displayName": "Simple KVS",
     "description": "Simple Key Value Store for Unity.",
-    "unity": "2019.4",
+    "unity": "2021.2",
     "keywords": [
         "KVS"
     ],
