@@ -9,7 +9,7 @@ namespace kumaS.SimpleKVS
 {
     /// <summary>
     /// <para>Wrapper for <see cref="JsonUtility"/>.</para>
-    /// <para><see cref="JsonUtility"/>‚Ìƒ‰ƒbƒp[B</para>
+    /// <para><see cref="JsonUtility"/>ã®ãƒ©ãƒƒãƒ‘ãƒ¼ã€‚</para>
     /// </summary>
     public class JsonUtilitySerializer : ISerializer, ISerializer4UnityObject
     {

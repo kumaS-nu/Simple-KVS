@@ -8,7 +8,7 @@ namespace kumaS.SimpleKVS.External.TextDotJson
 {
     /// <summary>
     /// <para>Wrapper for System.Text.Json.<see cref="JsonSerializer"/>.</para>
-    /// <para>System.Text.Json.<see cref="JsonSerializer"/>‚Ìƒ‰ƒbƒp[B</para>
+    /// <para>System.Text.Json.<see cref="JsonSerializer"/>ã®ãƒ©ãƒƒãƒ‘ãƒ¼ã€‚</para>
     /// </summary>
     public sealed class TextDotJsonSerializer : ISerializer
     {

@@ -5,79 +5,79 @@ namespace kumaS.SimpleKVS
 {
     /// <summary>
     /// <para>Interface for serialization and deserialization used in <see cref="InFileKVS{S}"/>.</para>
-    /// <para><see cref="InFileKVS{S}"/>‚Å—p‚¢‚éƒVƒŠƒAƒ‰ƒCƒYEƒfƒVƒŠƒAƒ‰ƒCƒY‚Ì‚½‚ß‚ÌƒCƒ“ƒ^[ƒtƒF[ƒXB</para>
+    /// <para><see cref="InFileKVS{S}"/>ã§ç”¨ã„ã‚‹ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚ºãƒ»ãƒ‡ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚ºã®ãŸã‚ã®ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã€‚</para>
     /// </summary>
     public interface ISerializer
     {
         /// <summary>
         /// <para>Serialize data.</para>
-        /// <para>ƒf[ƒ^‚ğƒVƒŠƒAƒ‹‰»‚·‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type.</para>
         /// </typeparam>
         /// <param name="buffer">
         /// <para>Buffer to write serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚µ‚½ƒf[ƒ^‚Ì‘‚«‚İæB</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã—ãŸãƒ‡ãƒ¼ã‚¿ã®æ›¸ãè¾¼ã¿å…ˆã€‚</para>
         /// </param>
         /// <param name="obj">
         /// <para>Data for serialize.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚·‚éƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         public void Serialize<T>(Stream buffer, T obj);
 
         /// <summary>
         /// <para>Serialize data.</para>
-        /// <para>ƒf[ƒ^‚ğƒVƒŠƒAƒ‹‰»‚·‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type.</para>
         /// </typeparam>
         /// <param name="buffer">
         /// <para>Buffer to write serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚µ‚½ƒf[ƒ^‚Ì‘‚«‚İæB</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã—ãŸãƒ‡ãƒ¼ã‚¿ã®æ›¸ãè¾¼ã¿å…ˆã€‚</para>
         /// </param>
         /// <param name="obj">
         /// <para>Data for serialize.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚·‚éƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </returns>
         public Task SerializeAsync<T>(Stream buffer, T obj);
 
         /// <summary>
         /// <para>Deserialize data.</para>
-        /// <para>ƒf[ƒ^‚ğƒfƒVƒŠƒAƒ‹‰»‚·‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ãƒ‡ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type.</para>
         /// </typeparam>
         /// <param name="data">
         /// <para>Serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Deserialized data.</para>
-        /// <para>ƒfƒVƒŠƒAƒ‹‰»‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ãƒ‡ã‚·ãƒªã‚¢ãƒ«åŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </returns>
         public T Deserialize<T>(Stream data);
 
         /// <summary>
         /// <para>Deserialize data.</para>
-        /// <para>ƒf[ƒ^‚ğƒfƒVƒŠƒAƒ‹‰»‚·‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ãƒ‡ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type.</para>
         /// </typeparam>
         /// <param name="data">
         /// <para>Serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Deserialized data.</para>
-        /// <para>ƒfƒVƒŠƒAƒ‹‰»‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ãƒ‡ã‚·ãƒªã‚¢ãƒ«åŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </returns>
         public ValueTask<T> DeserializeAsync<T>(Stream data);
     }

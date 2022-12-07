@@ -7,7 +7,7 @@ namespace kumaS.SimpleKVS.External.MsgPack
 {
     /// <summary>
     /// <para>Wrapper for <see cref="MessagePackSerializer"/> with LZ4 compress option.</para>
-    /// <para>LZ4ˆ³kƒIƒvƒVƒ‡ƒ“•t‚«‚Ì<see cref="MessagePackSerializer"/>‚Ìƒ‰ƒbƒp[B</para>
+    /// <para>LZ4åœ§ç¸®ã‚ªãƒ—ã‚·ãƒ§ãƒ³ä»˜ãã®<see cref="MessagePackSerializer"/>ã®ãƒ©ãƒƒãƒ‘ãƒ¼ã€‚</para>
     /// </summary>
     public sealed class MsgPackLZ4Serializer : ISerializer
     {

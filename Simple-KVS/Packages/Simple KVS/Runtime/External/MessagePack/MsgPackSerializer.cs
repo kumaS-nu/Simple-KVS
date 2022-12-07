@@ -7,7 +7,7 @@ namespace kumaS.SimpleKVS.External.MsgPack
 {
     /// <summary>
     /// <para>Wrapper for <see cref="MessagePackSerializer"/>.</para>
-    /// <para><see cref="MessagePackSerializer"/>‚Ìƒ‰ƒbƒp[B</para>
+    /// <para><see cref="MessagePackSerializer"/>ã®ãƒ©ãƒƒãƒ‘ãƒ¼ã€‚</para>
     /// </summary>
     public sealed class MsgPackSerializer : ISerializer
     {

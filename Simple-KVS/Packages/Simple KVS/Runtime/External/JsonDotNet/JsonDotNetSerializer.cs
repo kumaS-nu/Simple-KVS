@@ -9,7 +9,7 @@ namespace kumaS.SimpleKVS.External.JsonDotNet
 {
     /// <summary>
     /// <para>Wrapper for Json.net <see cref="JsonConvert"/>.</para>
-    /// <para>Json.net <see cref="JsonConvert"/>‚Ìƒ‰ƒbƒp[B</para>
+    /// <para>Json.net <see cref="JsonConvert"/>ã®ãƒ©ãƒƒãƒ‘ãƒ¼ã€‚</para>
     /// </summary>
     public sealed class JsonDotNetSerializer : ISerializer
     {

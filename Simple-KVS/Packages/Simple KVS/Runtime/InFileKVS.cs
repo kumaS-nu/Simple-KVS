@@ -10,11 +10,11 @@ namespace kumaS.SimpleKVS
 {
     /// <summary>
     /// <para>Key Value Store works on file.</para>
-    /// <para>ƒtƒ@ƒCƒ‹ã‚Å“®ì‚·‚éKey Value StoreB</para>
+    /// <para>ãƒ•ã‚¡ã‚¤ãƒ«ä¸Šã§å‹•ä½œã™ã‚‹Key Value Storeã€‚</para>
     /// </summary>
     /// <typeparam name="S">
     /// <para>Serializer / Deserializer.</para>
-    /// <para>ƒVƒŠƒAƒ‰ƒCƒU[EƒfƒVƒŠƒAƒ‰ƒCƒU[B</para>
+    /// <para>ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚¶ãƒ¼ãƒ»ãƒ‡ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚¶ãƒ¼ã€‚</para>
     /// </typeparam>
     public static class InFileKVS<S> where S : ISerializer, new()
     {
@@ -22,27 +22,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Stored value.</para>
-        /// <para>•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         /// <exception cref="KeyNotFoundException"></exception>
         public static T Get<T>(string key, string rootPath, bool remove = false)
@@ -69,23 +69,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Stored value.</para>
-        /// <para>•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         /// <exception cref="KeyNotFoundException"></exception>
         public static T Get<T>(string key, bool remove = false)
@@ -95,27 +95,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Stored value.</para>
-        /// <para>•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         /// <exception cref="KeyNotFoundException"></exception>
         public static async ValueTask<T> GetAsync<T>(string key, string rootPath, bool remove = false)
@@ -142,23 +142,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Stored value.</para>
-        /// <para>•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         /// <exception cref="KeyNotFoundException"></exception>
         public static ValueTask<T> GetAsync<T>(string key, bool remove = false)
@@ -168,31 +168,31 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Stored value.</para>
-        /// <para>•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚</para>
         /// </returns>
         public static bool TryGet<T>(string key, out T value, string rootPath, bool remove = false)
         {
@@ -218,27 +218,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Stored value.</para>
-        /// <para>•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚</para>
         /// </returns>
         public static bool TryGet<T>(string key, out T value, bool remove = false)
         {
@@ -247,27 +247,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?. Stored value.</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         public static (bool isStored, T value) TryGet<T>(string key, string rootPath, bool remove = false)
         {
@@ -293,23 +293,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?. Stored value.</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         public static (bool isStored, T value) TryGet<T>(string key, bool remove = false)
         {
@@ -318,27 +318,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?. Stored value.</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         public static async ValueTask<(bool isStored, T value)> TryGetAsync<T>(string key, string rootPath, bool remove = false)
         {
@@ -364,23 +364,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?. Stored value.</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         public static ValueTask<(bool isStored, T value)> TryGetAsync<T>(string key, bool remove = false)
         {
@@ -389,23 +389,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         public static void Set<T>(string key, T value, string rootPath)
         {
@@ -421,23 +421,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value. Saved at Application.dataPath.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         public static void Set<T>(string key, T value)
         {
@@ -446,23 +446,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         public static async ValueTask SetAsync<T>(string key, T value, string rootPath)
         {
@@ -478,23 +478,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value. Saved at Application.dataPath.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         public static ValueTask SetAsync<T>(string key, T value)
         {

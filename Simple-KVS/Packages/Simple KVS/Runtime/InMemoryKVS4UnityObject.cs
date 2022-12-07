@@ -4,7 +4,7 @@ namespace kumaS.SimpleKVS
 {
     /// <summary>
     /// <para>Key Value Store works on memory for <see cref="UnityEngine.Object"/>.</para>
-    /// <para>ƒƒ‚ƒŠã‚Å“®ì‚·‚é<see cref="UnityEngine.Object"/>—p‚ÌKey Value StoreB</para>
+    /// <para>ãƒ¡ãƒ¢ãƒªä¸Šã§å‹•ä½œã™ã‚‹<see cref="UnityEngine.Object"/>ç”¨ã®Key Value Storeã€‚</para>
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class InMemoryKVS4UnityObject<T> where T : ISerializable
@@ -13,19 +13,19 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. By default, after get value, it will be removed.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éBƒfƒtƒHƒ‹ƒg‚Å‚Í’l‚ğæ“¾ŒãA‚»‚Ì’l‚Íœ‹‚³‚ê‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§ã¯å€¤ã‚’å–å¾—å¾Œã€ãã®å€¤ã¯é™¤å»ã•ã‚Œã‚‹ã€‚</para>
         /// </summary>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <exception cref="KeyNotFoundException"></exception>
         public static void Get(string key, T value, bool remove = true)
@@ -40,23 +40,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. By default, after get value, it will be removed.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éBƒfƒtƒHƒ‹ƒg‚Å‚Í’l‚ğæ“¾ŒãA‚»‚Ì’l‚Íœ‹‚³‚ê‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§ã¯å€¤ã‚’å–å¾—å¾Œã€ãã®å€¤ã¯é™¤å»ã•ã‚Œã‚‹ã€‚</para>
         /// </summary>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚</para>
         /// </returns>
         public static bool TryGet(string key, T value, bool remove = true)
         {
@@ -74,15 +74,15 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         public static void Set(string key, T value)
         {

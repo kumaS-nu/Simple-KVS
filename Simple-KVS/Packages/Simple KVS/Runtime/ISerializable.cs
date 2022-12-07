@@ -2,24 +2,24 @@ namespace kumaS.SimpleKVS
 {
     /// <summary>
     /// <para>Interface to send / receive <see cref="UnityEngine.Object"/> in <see cref="InMemoryKVS4UnityObject{T}"/>.</para>
-    /// <para><see cref="InMemoryKVS4UnityObject{T}"/>‚ÅUnity‚Ì<see cref="UnityEngine.Object"/>‚ğ‚â‚è‚Æ‚è‚·‚é‚½‚ß‚ÌƒCƒ“ƒ^[ƒtƒF[ƒXB</para>
+    /// <para><see cref="InMemoryKVS4UnityObject{T}"/>ã§Unityã®<see cref="UnityEngine.Object"/>ã‚’ã‚„ã‚Šã¨ã‚Šã™ã‚‹ãŸã‚ã®ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã€‚</para>
     /// </summary>
     public interface ISerializable
     {
         /// <summary>
         /// <para>Serialize this instance.</para>
-        /// <para>‚±‚ÌƒCƒ“ƒXƒ^ƒ“ƒX‚ğƒVƒŠƒAƒ‰ƒCƒY‚·‚éB</para>
+        /// <para>ã“ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚ºã™ã‚‹ã€‚</para>
         /// </summary>
         /// <returns></returns>
         public object Serialize();
 
         /// <summary>
         /// <para>Deserialize data and set to this instance.</para>
-        /// <para>ƒf[ƒ^‚ğƒfƒVƒŠƒAƒ‰ƒCƒY‚µ‚±‚ÌƒCƒ“ƒXƒ^ƒ“ƒX‚É”½‰f‚³‚¹‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ãƒ‡ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚ºã—ã“ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã«åæ˜ ã•ã›ã‚‹ã€‚</para>
         /// </summary>
         /// <param name="data">
         /// <para>Serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‰ƒCƒY‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚ºã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         public void Deserialize(object data);
     }

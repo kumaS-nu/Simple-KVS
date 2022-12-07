@@ -9,7 +9,7 @@ namespace kumaS.SimpleKVS.External.MemPack
 {
     /// <summary>
     /// <para>Wrapper for <see cref="MemoryPackSerializer"/>.</para>
-    /// <para><see cref="MemoryPackSerializer"/>‚Ìƒ‰ƒbƒp[B</para>
+    /// <para><see cref="MemoryPackSerializer"/>ã®ãƒ©ãƒƒãƒ‘ãƒ¼ã€‚</para>
     /// </summary>
     public sealed class MemPackSerializer : ISerializer
     {

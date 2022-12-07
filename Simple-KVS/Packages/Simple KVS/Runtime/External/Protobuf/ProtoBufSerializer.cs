@@ -11,7 +11,7 @@ namespace kumaS.SimpleKVS.External.ProtoBuf
 {
     /// <summary>
     /// <para>Wrapper for ProtoBuf-net <see cref="Serializer"/>.</para>
-    /// <para>ProtoBuf-net <see cref="Serializer"/>‚Ìƒ‰ƒbƒp[B</para>
+    /// <para>ProtoBuf-net <see cref="Serializer"/>ã®ãƒ©ãƒƒãƒ‘ãƒ¼ã€‚</para>
     /// </summary>
     public sealed class ProtoBufSerializer : ISerializer, ISerializer4UnityObject
     {
@@ -40,7 +40,7 @@ namespace kumaS.SimpleKVS.External.ProtoBuf
         }
 
         /// <inheritdoc/>
-#pragma warning disable CS1998 // ”ñ“¯Šúƒƒ\ƒbƒh‚ÍA'await' ‰‰Zq‚ª‚È‚¢‚½‚ßA“¯Šú“I‚ÉÀs‚³‚ê‚Ü‚·
+#pragma warning disable CS1998 // éåŒæœŸãƒ¡ã‚½ãƒƒãƒ‰ã¯ã€'await' æ¼”ç®—å­ãŒãªã„ãŸã‚ã€åŒæœŸçš„ã«å®Ÿè¡Œã•ã‚Œã¾ã™
         public async ValueTask<T> DeserializeAsync<T>(Stream data)
         {
             return Serializer.Deserialize<T>(data);
@@ -63,7 +63,7 @@ namespace kumaS.SimpleKVS.External.ProtoBuf
         {
             Serializer.Deserialize<T>(data, value);
         }
-#pragma warning restore CS1998 // ”ñ“¯Šúƒƒ\ƒbƒh‚ÍA'await' ‰‰Zq‚ª‚È‚¢‚½‚ßA“¯Šú“I‚ÉÀs‚³‚ê‚Ü‚·
+#pragma warning restore CS1998 // éåŒæœŸãƒ¡ã‚½ãƒƒãƒ‰ã¯ã€'await' æ¼”ç®—å­ãŒãªã„ãŸã‚ã€åŒæœŸçš„ã«å®Ÿè¡Œã•ã‚Œã¾ã™
     }
 }
 

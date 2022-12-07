@@ -10,11 +10,11 @@ namespace kumaS.SimpleKVS
 {
     /// <summary>
     /// <para>Key Value Store works on file for <see cref="UnityEngine.Object"/>.</para>
-    /// <para>ƒtƒ@ƒCƒ‹ã‚Å“®ì‚·‚é<see cref="UnityEngine.Object"/>—p‚ÌKey Value StoreB</para>
+    /// <para>ãƒ•ã‚¡ã‚¤ãƒ«ä¸Šã§å‹•ä½œã™ã‚‹<see cref="UnityEngine.Object"/>ç”¨ã®Key Value Storeã€‚</para>
     /// </summary>
     /// <typeparam name="S">
     /// <para>Serializer / Deserializer.</para>
-    /// <para>ƒVƒŠƒAƒ‰ƒCƒU[EƒfƒVƒŠƒAƒ‰ƒCƒU[B</para>
+    /// <para>ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚¶ãƒ¼ãƒ»ãƒ‡ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚¶ãƒ¼ã€‚</para>
     /// </typeparam>
     public static class InFileKVS4UnityObject<S> where S : ISerializer4UnityObject, new()
     {
@@ -22,27 +22,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <exception cref="KeyNotFoundException"></exception>
         public static void Get<T>(string key, T value, string rootPath, bool remove = false) where T : UnityEngine.Object
@@ -65,23 +65,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <exception cref="KeyNotFoundException"></exception>
         public static void Get<T>(string key, T value, bool remove = false) where T: UnityEngine.Object
@@ -91,31 +91,31 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Stored value.</para>
-        /// <para>•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         /// <exception cref="KeyNotFoundException"></exception>
         public static async ValueTask GetAsync<T>(string key, T value, string rootPath, bool remove = false) where T: UnityEngine.Object
@@ -138,27 +138,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Stored value.</para>
-        /// <para>•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         /// <exception cref="KeyNotFoundException"></exception>
         public static ValueTask GetAsync<T>(string key, T value, bool remove = false) where T: UnityEngine.Object
@@ -168,31 +168,31 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚</para>
         /// </returns>
         public static bool TryGet<T>(string key, T value, string rootPath, bool remove = false) where T: UnityEngine.Object
         {
@@ -215,27 +215,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚</para>
         /// </returns>
         public static bool TryGet<T>(string key, T value, bool remove = false) where T: UnityEngine.Object
         {
@@ -244,31 +244,31 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?. Stored value.</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         public static async ValueTask<bool> TryGetAsync<T>(string key, T value, string rootPath, bool remove = false) where T: UnityEngine.Object
         {
@@ -291,27 +291,27 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>•Û‘¶‚µ‚½’l‚ğæ“¾‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>ä¿å­˜ã—ãŸå€¤ã‚’å–å¾—ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to set value.</para>
-        /// <para>’l‚ğİ’è‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>å€¤ã‚’è¨­å®šã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         /// <param name="remove">
         /// <para>After get value, it will be removed or not.</para>
-        /// <para>’l‚ğæ“¾Œãœ‹‚·‚é‚©‚Ç‚¤‚©B</para>
+        /// <para>å€¤ã‚’å–å¾—å¾Œé™¤å»ã™ã‚‹ã‹ã©ã†ã‹ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Does value stored?. Stored value.</para>
-        /// <para>’l‚ª•Û‘¶‚³‚ê‚Ä‚¢‚½‚©B•Û‘¶‚µ‚Ä‚¢‚½’lB</para>
+        /// <para>å€¤ãŒä¿å­˜ã•ã‚Œã¦ã„ãŸã‹ã€‚ä¿å­˜ã—ã¦ã„ãŸå€¤ã€‚</para>
         /// </returns>
         public static ValueTask<bool> TryGetAsync<T>(string key, T value, bool remove = false) where T: UnityEngine.Object
         {
@@ -320,23 +320,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         public static void Set<T>(string key, T value, string rootPath) where T : UnityEngine.Object
         {
@@ -350,23 +350,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value. Saved at Application.dataPath.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         public static void Set<T>(string key, T value) where T: UnityEngine.Object
         {
@@ -375,23 +375,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         public static async ValueTask SetAsync<T>(string key, T value, string rootPath) where T: UnityEngine.Object
         {
@@ -405,23 +405,23 @@ namespace kumaS.SimpleKVS
 
         /// <summary>
         /// <para>Store value. Saved at Application.dataPath.</para>
-        /// <para>’l‚ğ•Û‘¶‚·‚éB•Û‘¶æ‚ÍApplication.dataPathB</para>
+        /// <para>å€¤ã‚’ä¿å­˜ã™ã‚‹ã€‚ä¿å­˜å…ˆã¯Application.dataPathã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
-        /// <para>æ“¾‚·‚éƒf[ƒ^Œ^B</para>
+        /// <para>å–å¾—ã™ã‚‹ãƒ‡ãƒ¼ã‚¿å‹ã€‚</para>
         /// </typeparam>
         /// <param name="key">
         /// <para>key</para>
-        /// <para>ƒL[</para>
+        /// <para>ã‚­ãƒ¼</para>
         /// </param>
         /// <param name="value">
         /// <para>Storeing value.</para>
-        /// <para>•Û‘¶‚·‚é’lB</para>
+        /// <para>ä¿å­˜ã™ã‚‹å€¤ã€‚</para>
         /// </param>
         /// <param name="rootPath">
         /// <para>Path to save data.</para>
-        /// <para>ƒf[ƒ^‚ğ•Û‘¶‚·‚éƒpƒXB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ä¿å­˜ã™ã‚‹ãƒ‘ã‚¹ã€‚</para>
         /// </param>
         public static ValueTask SetAsync<T>(string key, T value) where T: UnityEngine.Object
         {

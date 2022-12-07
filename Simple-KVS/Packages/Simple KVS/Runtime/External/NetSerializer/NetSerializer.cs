@@ -10,7 +10,7 @@ namespace kumaS.SimpleKVS.External.Net
 {
     /// <summary>
     /// <para>Wrapper for NetSerializer.</para>
-    /// <para>NetSerializer‚Ìƒ‰ƒbƒp[B</para>
+    /// <para>NetSerializerã®ãƒ©ãƒƒãƒ‘ãƒ¼ã€‚</para>
     /// </summary>
     public sealed class NetSerializer : ISerializer
     {
@@ -29,7 +29,7 @@ namespace kumaS.SimpleKVS.External.Net
         }
 
         /// <inheritdoc/>
-#pragma warning disable CS1998 // ”ñ“¯Šúƒƒ\ƒbƒh‚ÍA'await' ‰‰Zq‚ª‚È‚¢‚½‚ßA“¯Šú“I‚ÉÀs‚³‚ê‚Ü‚·
+#pragma warning disable CS1998 // éåŒæœŸãƒ¡ã‚½ãƒƒãƒ‰ã¯ã€'await' æ¼”ç®—å­ãŒãªã„ãŸã‚ã€åŒæœŸçš„ã«å®Ÿè¡Œã•ã‚Œã¾ã™
         public async ValueTask<T> DeserializeAsync<T>(Stream data)
         {
             var serializer = new Serializer(new Type[] { typeof(T) });
@@ -42,7 +42,7 @@ namespace kumaS.SimpleKVS.External.Net
             var serializer = new Serializer(new Type[] { typeof(T) });
             serializer.Serialize(buffer, obj);
         }
-#pragma warning restore CS1998 // ”ñ“¯Šúƒƒ\ƒbƒh‚ÍA'await' ‰‰Zq‚ª‚È‚¢‚½‚ßA“¯Šú“I‚ÉÀs‚³‚ê‚Ü‚·
+#pragma warning restore CS1998 // éåŒæœŸãƒ¡ã‚½ãƒƒãƒ‰ã¯ã€'await' æ¼”ç®—å­ãŒãªã„ãŸã‚ã€åŒæœŸçš„ã«å®Ÿè¡Œã•ã‚Œã¾ã™
     }
 }
 

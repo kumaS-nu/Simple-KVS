@@ -7,79 +7,79 @@ namespace kumaS.SimpleKVS
 {
     /// <summary>
     /// <para>Interface for serialization and deserialization<see cref="Object"/> used in InFileKVS.</para>
-    /// <para>InFileKVS‚Å—p‚¢‚éUnity‚Ì<see cref="Object"/>—p‚ÌƒVƒŠƒAƒ‰ƒCƒYEƒfƒVƒŠƒAƒ‰ƒCƒY‚Ì‚½‚ß‚ÌƒCƒ“ƒ^[ƒtƒF[ƒXB</para>
+    /// <para>InFileKVSã§ç”¨ã„ã‚‹Unityã®<see cref="Object"/>ç”¨ã®ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚ºãƒ»ãƒ‡ã‚·ãƒªã‚¢ãƒ©ã‚¤ã‚ºã®ãŸã‚ã®ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã€‚</para>
     /// </summary>
     public interface ISerializer4UnityObject
     {
         /// <summary>
         /// <para>Serialize data.</para>
-        /// <para>ƒf[ƒ^‚ğƒVƒŠƒAƒ‹‰»‚·‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type.</para>
         /// </typeparam>
         /// <param name="buffer">
         /// <para>Buffer to write serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚µ‚½ƒf[ƒ^‚Ì‘‚«‚İæB</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã—ãŸãƒ‡ãƒ¼ã‚¿ã®æ›¸ãè¾¼ã¿å…ˆã€‚</para>
         /// </param>
         /// <param name="obj">
         /// <para>Data for serialize.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚·‚éƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         public void Serialize4UnityObject<T>(Stream buffer, T obj) where T: Object;
 
         /// <summary>
         /// <para>Serialize data.</para>
-        /// <para>ƒf[ƒ^‚ğƒVƒŠƒAƒ‹‰»‚·‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type.</para>
         /// </typeparam>
         /// <param name="buffer">
         /// <para>Buffer to write serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚µ‚½ƒf[ƒ^‚Ì‘‚«‚İæB</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã—ãŸãƒ‡ãƒ¼ã‚¿ã®æ›¸ãè¾¼ã¿å…ˆã€‚</para>
         /// </param>
         /// <param name="obj">
         /// <para>Data for serialize.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚·‚éƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         /// <returns>
         /// <para>Serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </returns>
         public Task Serialize4UnityObjectAsync<T>(Stream buffer, T obj) where T : Object;
 
         /// <summary>
         /// <para>Deserialize data.</para>
-        /// <para>ƒf[ƒ^‚ğƒfƒVƒŠƒAƒ‹‰»‚·‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ãƒ‡ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type.</para>
         /// </typeparam>
         /// <param name="data">
         /// <para>Serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to which the value is applied.</para>
-        /// <para>“K—p‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>é©ç”¨ã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         public void Deserialize4UnityObject<T>(Stream data, T value) where T : Object;
 
         /// <summary>
         /// <para>Deserialize data.</para>
-        /// <para>ƒf[ƒ^‚ğƒfƒVƒŠƒAƒ‹‰»‚·‚éB</para>
+        /// <para>ãƒ‡ãƒ¼ã‚¿ã‚’ãƒ‡ã‚·ãƒªã‚¢ãƒ«åŒ–ã™ã‚‹ã€‚</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type.</para>
         /// </typeparam>
         /// <param name="data">
         /// <para>Serialized data.</para>
-        /// <para>ƒVƒŠƒAƒ‹‰»‚³‚ê‚½ƒf[ƒ^B</para>
+        /// <para>ã‚·ãƒªã‚¢ãƒ«åŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã€‚</para>
         /// </param>
         /// <param name="value">
         /// <para>Object to which the value is applied.</para>
-        /// <para>“K—p‚·‚éƒIƒuƒWƒFƒNƒgB</para>
+        /// <para>é©ç”¨ã™ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚</para>
         /// </param>
         public ValueTask Deserialize4UnityObjectAsync<T>(Stream data, T value) where T : Object;
     }
