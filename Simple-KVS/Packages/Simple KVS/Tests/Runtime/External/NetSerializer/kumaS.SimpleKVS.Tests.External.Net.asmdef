@@ -1,11 +1,11 @@
 {
-    "name": "kumaS.SimpleKVS.Tests.External.NetSerializer",
+    "name": "kumaS.SimpleKVS.Tests.External.Net",
     "rootNamespace": "kumaS.SimpleKVS.Tests.External.Net",
     "references": [
         "UnityEngine.TestRunner",
         "kumaS.SimpleKVS",
         "kumaS.SimpleKVS.Tests",
-        "kumaS.SimpleKVS.External.NetSerializer"
+        "kumaS.SimpleKVS.External.Net"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
