@@ -2,355 +2,355 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/index.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Editor.External.ExternalControll.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Editor.External.ExternalControllWindow.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Editor.External.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.JsonDotNet.JsonDotNetSerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.JsonDotNet.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.MemPack.MemPackSerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.MemPack.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.MsgPack.MsgPackLZ4Serializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.MsgPack.MsgPackSerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.MsgPack.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.Net.NetSerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.Net.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.ProtoBuf.ProtoBufSerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.ProtoBuf.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.TextDotJson.TextDotJsonSerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.External.TextDotJson.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.InFileKVS-1.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.InFileKVS4UnityObject-1.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.InMemoryKVS-1.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.InMemoryKVS4UnityObject-1.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.ISerializable.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.ISerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.ISerializer4UnityObject.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.JsonUtilitySerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.JsonDotNet.JsonDotNetTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.JsonDotNet.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.MemPack.MemPackTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.MemPack.SampleData5.SampleData5Formatter.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.MemPack.SampleData5.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.MemPack.SampleMonoData5.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.MemPack.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.MsgPack.MsgPackTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.MsgPack.SampleData4.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.MsgPack.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.Net.NetSerializerTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.Net.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.TextDotJson.TextDotJsonTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.External.TextDotJson.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.InFile4UnityObjectTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.InFileTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.InMemorySceneTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.InMemoryTest.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.SampleData.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.SampleData2.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.SampleMonoData.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.SMonoData.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.TaskExtension.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.ValueTaskExtension.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.Tests.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.XMLSerializer.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/kumaS.SimpleKVS.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/MessagePack.Formatters.kumaS.SimpleKVS.Tests.External.MsgPack.SampleData4Formatter.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/MessagePack.Formatters.kumaS.SimpleKVS.Tests.External.MsgPack.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/MessagePack.Resolvers.GeneratedResolver.FormatterCache-1.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/MessagePack.Resolvers.GeneratedResolver.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/MessagePack.Resolvers.GeneratedResolverGetFormatterHelper.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/api/MessagePack.Resolvers.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://kumas-nu.github.io/Simple-KVS/index.html</loc>
-    <lastmod>2022-12-08T01:12:31+09:00</lastmod>
+    <lastmod>2022-12-08T01:26:31+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

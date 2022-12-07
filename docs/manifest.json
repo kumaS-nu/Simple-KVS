@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kumaS.SimpleKVS.External.Net.NetSerializer.html",
-          "hash": "N7WSUMMD8XcENTeTeRNDsON8zJuqiIQmagcMFS/pK3s="
+          "hash": "+8mVu5hnpwmGLcmemFAA4FVYvAiKuRxSWm7vzuWvr6A="
         }
       },
       "is_incremental": false,
@@ -520,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kumaS.SimpleKVS.Tests.External.Net.NetSerializerTest.html",
-          "hash": "BkAQ4M6ycBCDAlTwsREtNjfwEcoM1DqEbcNs+3NzvBE="
+          "hash": "e2YPNykWnfhxqGGqdyoMEfe+dW5/giMnYmQ4B4cRX88="
         }
       },
       "is_incremental": false,
@@ -772,25 +772,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 57,
-          "skipped_file_count": 0
+          "skipped_file_count": 53
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
