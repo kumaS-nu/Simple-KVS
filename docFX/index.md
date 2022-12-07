@@ -1,13 +1,11 @@
 # English
 
-<img src="images/logo.svg" alt="Simple KVS logo" height="120">
+<img src="images/Logo.svg" alt="Simple KVS logo" height="120">
 
 ## Welcome to Simple KVS
 
 [![GitHub](https://img.shields.io/github/license/kumaS-nu/Simple-KVS)](https://github.com/kumaS-nu/Simple-KVS/blob/master/LICENSE)
 [![Test](https://github.com/kumaS-nu/Simple-KVS/workflows/Test/badge.svg?branch=main&event=push)](https://github.com/kumaS-nu/Simple-KVS/actions)
-[![GitHub all releases](https://img.shields.io/github/downloads/kumaS-nu/Simple-KVS/total)](https://github.com/kumaS-nu/Simple-KVSy/releases)
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/downloads-pre/kumaS-nu/Simple-KVS/latest/total)](https://github.com/kumaS-nu/Simple-KVS/releases)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/kumaS-nu/Simple-KVS)](https://www.codefactor.io/repository/github/kumaS-nu/Simple-KVS)
 [![openupm](https://img.shields.io/npm/v/org.kumas.simple-kvs?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/org.kumas.simple-kvs/)
 
@@ -48,11 +46,6 @@ This KVS is helpful for the following purposes.
     ```
 
  For more information, see the [Official page (Getting Started with OpenUPM-CLI - OpenUPM)](https://openupm.com/docs/getting-started.html)
-
-### via .unitypackage
-
-1. Go to the [release page](https://github.com/kumaS-nu/Simple-KVS/releases) and download the zip file of the version you need.
-1. Extract the zip file and import the .unitypackage into your project.
 
 ## Usage
 
@@ -188,13 +181,11 @@ We welcome any contributions (bug reports, desired features). If you write the p
 
 # 日本語
 
-<img src="images/logo.svg" alt="Simple KVS logo" height="120">
+<img src="images/Logo.svg" alt="Simple KVS logo" height="120">
 
 ## Welcome to Simple KVS
 [![GitHub](https://img.shields.io/github/license/kumaS-nu/Simple-KVS)](https://github.com/kumaS-nu/Simple-KVS/blob/master/LICENSE)
 [![Test](https://github.com/kumaS-nu/Simple-KVS/workflows/Test/badge.svg?branch=main&event=push)](https://github.com/kumaS-nu/Simple-KVS/actions)
-[![GitHub all releases](https://img.shields.io/github/downloads/kumaS-nu/Simple-KVS/total)](https://github.com/kumaS-nu/Simple-KVSy/releases)
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/downloads-pre/kumaS-nu/Simple-KVS/latest/total)](https://github.com/kumaS-nu/Simple-KVS/releases)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/kumaS-nu/Simple-KVS)](https://www.codefactor.io/repository/github/kumaS-nu/Simple-KVS)
 [![openupm](https://img.shields.io/npm/v/org.kumas.simple-kvs?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/org.kumas.simple-kvs/)
 
@@ -232,11 +223,6 @@ We welcome any contributions (bug reports, desired features). If you write the p
     ```
 
 詳細は[公式ページ(Getting Started with OpenUPM-CLI - OpenUPM)](https://openupm.com/docs/getting-started.html)をご覧ください。
-
-### .unitypackage で導入する
-
-1. [リリースページ](https://github.com/kumaS-nu/Simple-KVS/releases)へ行き、必要なバージョンのzipファイルをダウンロードする。
-1. zipファイルを解凍し、中の .unitypackage をプロジェクトにインポートする。
 
 ## 使い方
 
