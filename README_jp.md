@@ -7,7 +7,7 @@
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/kumaS-nu/Simple-KVS)](https://www.codefactor.io/repository/github/kumaS-nu/Simple-KVS)
 [![openupm](https://img.shields.io/npm/v/org.kumas.simple-kvs?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/org.kumas.simple-kvs/)
 
-<img src="logo.svg" alt="Simple KVS logo" height="60">
+<img src="Logo.svg" alt="Simple KVS logo" height="60">
 
 このライブラリはとてもシンプルなUnity向けのKey Value Store (**Server**ではない)を提供します。
 このKVSは以下の用途で役に立ちます。
