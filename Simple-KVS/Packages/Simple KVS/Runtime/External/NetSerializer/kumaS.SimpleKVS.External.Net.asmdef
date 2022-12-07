@@ -1,6 +1,6 @@
 {
-    "name": "kumaS.SimpleKVS.External.NetSerializer",
-    "rootNamespace": "kumaS.SimpleKVS.External.Netr",
+    "name": "kumaS.SimpleKVS.External.Net",
+    "rootNamespace": "kumaS.SimpleKVS.External.Net",
     "references": [
         "GUID:72d43b09f6437354e95002e33d9aece1"
     ],
