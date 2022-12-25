@@ -9,7 +9,6 @@ using UnityEngine;
 using UnityEngine.TestTools;
 
 using kumaS.SimpleKVS.External.Net;
-using UnityEngine.SceneManagement;
 
 namespace kumaS.SimpleKVS.Tests.External.Net
 {
@@ -25,9 +24,9 @@ namespace kumaS.SimpleKVS.Tests.External.Net
             };
 
             Assert.That(() => InFileKVS<NetSerializer>.Set("key0", data), Throws.Nothing);
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData_key0.kvs")), Is.True);
-            Assert.That(File.ReadAllBytes(Path.Combine(Application.dataPath, "SampleData_key0.kvs")).Length, Is.Not.Zero);
-            File.Delete(Path.Combine(Application.dataPath, "SampleData_key0.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData_key0.kvs")), Is.True);
+            Assert.That(File.ReadAllBytes(Path.Combine(Application.persistentDataPath, "SampleData_key0.kvs")).Length, Is.Not.Zero);
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData_key0.kvs"));
         }
 
         [Test]
@@ -60,8 +59,8 @@ namespace kumaS.SimpleKVS.Tests.External.Net
             var task = InFileKVS<NetSerializer>.SetAsync("key2", data);
             yield return task.AsEnumerator();
 
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData_key2.kvs")), Is.True);
-            File.Delete(Path.Combine(Application.dataPath, "SampleData_key2.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData_key2.kvs")), Is.True);
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData_key2.kvs"));
 
             Assert.That(true);
         }

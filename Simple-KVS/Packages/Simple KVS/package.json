@@ -1,6 +1,6 @@
 {
     "name": "org.kumas.simple-kvs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Simple KVS",
     "description": "Simple Key Value Store for Unity.",
     "unity": "2021.2",

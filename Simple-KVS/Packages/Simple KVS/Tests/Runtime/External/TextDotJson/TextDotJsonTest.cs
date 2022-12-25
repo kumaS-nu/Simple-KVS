@@ -24,9 +24,9 @@ namespace kumaS.SimpleKVS.Tests.External.TextDotJson
             };
 
             Assert.That(() => InFileKVS<TextDotJsonSerializer>.Set("key0", data), Throws.Nothing);
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData2_key0.kvs")), Is.True);
-            Assert.That(File.ReadAllText(Path.Combine(Application.dataPath, "SampleData2_key0.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
-            File.Delete(Path.Combine(Application.dataPath, "SampleData2_key0.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData2_key0.kvs")), Is.True);
+            Assert.That(File.ReadAllText(Path.Combine(Application.persistentDataPath, "SampleData2_key0.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData2_key0.kvs"));
         }
 
         [Test]
@@ -59,9 +59,9 @@ namespace kumaS.SimpleKVS.Tests.External.TextDotJson
             var task = InFileKVS<TextDotJsonSerializer>.SetAsync("key2", data);
             yield return task.AsEnumerator();
 
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData2_key2.kvs")), Is.True);
-            Assert.That(File.ReadAllText(Path.Combine(Application.dataPath, "SampleData2_key2.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
-            File.Delete(Path.Combine(Application.dataPath, "SampleData2_key2.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData2_key2.kvs")), Is.True);
+            Assert.That(File.ReadAllText(Path.Combine(Application.persistentDataPath, "SampleData2_key2.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData2_key2.kvs"));
 
             Assert.That(true);
         }

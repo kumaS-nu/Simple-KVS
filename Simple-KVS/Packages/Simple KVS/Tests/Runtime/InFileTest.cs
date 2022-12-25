@@ -22,9 +22,9 @@ namespace kumaS.SimpleKVS.Tests
             };
 
             Assert.That(() => InFileKVS<JsonUtilitySerializer>.Set("key00", data), Throws.Nothing);
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData_key00.kvs")), Is.True);
-            Assert.That(File.ReadAllText(Path.Combine(Application.dataPath, "SampleData_key00.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
-            File.Delete(Path.Combine(Application.dataPath, "SampleData_key00.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData_key00.kvs")), Is.True);
+            Assert.That(File.ReadAllText(Path.Combine(Application.persistentDataPath, "SampleData_key00.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData_key00.kvs"));
         }
 
         [Test]
@@ -51,9 +51,9 @@ namespace kumaS.SimpleKVS.Tests
             };
 
             Assert.That(() => InFileKVS<XMLSerializer>.Set("key20", data), Throws.Nothing);
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData_key20.kvs")), Is.True);
-            Assert.That(File.ReadAllText(Path.Combine(Application.dataPath, "SampleData_key20.kvs")).Replace("\r",""), Is.EqualTo("<?xml version=\"1.0\"?>\n<SampleData xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <id>Simple-KVS</id>\n  <number>1</number>\n</SampleData>"));
-            File.Delete(Path.Combine(Application.dataPath, "SampleData_key20.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData_key20.kvs")), Is.True);
+            Assert.That(File.ReadAllText(Path.Combine(Application.persistentDataPath, "SampleData_key20.kvs")).Replace("\r",""), Is.EqualTo("<?xml version=\"1.0\"?>\n<SampleData xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <id>Simple-KVS</id>\n  <number>1</number>\n</SampleData>"));
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData_key20.kvs"));
         }
 
         [Test]
@@ -149,9 +149,9 @@ namespace kumaS.SimpleKVS.Tests
             var task = InFileKVS<JsonUtilitySerializer>.SetAsync("key04", data);
             yield return task.AsEnumerator();
 
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData_key04.kvs")), Is.True);
-            Assert.That(File.ReadAllText(Path.Combine(Application.dataPath, "SampleData_key04.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
-            File.Delete(Path.Combine(Application.dataPath, "SampleData_key04.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData_key04.kvs")), Is.True);
+            Assert.That(File.ReadAllText(Path.Combine(Application.persistentDataPath, "SampleData_key04.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData_key04.kvs"));
 
             Assert.That(true);
         }
@@ -167,9 +167,9 @@ namespace kumaS.SimpleKVS.Tests
             var task = InFileKVS<XMLSerializer>.SetAsync("key24", data);
             yield return task.AsEnumerator();
 
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData_key24.kvs")), Is.True);
-            Assert.That(File.ReadAllText(Path.Combine(Application.dataPath, "SampleData_key24.kvs")).Replace("\r", ""), Is.EqualTo("<?xml version=\"1.0\"?>\n<SampleData xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <id>Simple-KVS</id>\n  <number>1</number>\n</SampleData>"));
-            File.Delete(Path.Combine(Application.dataPath, "SampleData_key24.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData_key24.kvs")), Is.True);
+            Assert.That(File.ReadAllText(Path.Combine(Application.persistentDataPath, "SampleData_key24.kvs")).Replace("\r", ""), Is.EqualTo("<?xml version=\"1.0\"?>\n<SampleData xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <id>Simple-KVS</id>\n  <number>1</number>\n</SampleData>"));
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData_key24.kvs"));
 
             Assert.That(true);
         }
