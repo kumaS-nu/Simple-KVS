@@ -24,9 +24,9 @@ namespace kumaS.SimpleKVS.Tests.External.Protobuf {
             };
 
             Assert.That(() => InFileKVS<ProtoBufSerializer>.Set("key0", data), Throws.Nothing);
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData3_key0.kvs")), Is.True);
-            Assert.That(File.ReadAllBytes(Path.Combine(Application.dataPath, "SampleData3_key0.kvs")).Length, Is.Not.Zero);
-            File.Delete(Path.Combine(Application.dataPath, "SampleData3_key0.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData3_key0.kvs")), Is.True);
+            Assert.That(File.ReadAllBytes(Path.Combine(Application.persistentDataPath, "SampleData3_key0.kvs")).Length, Is.Not.Zero);
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData3_key0.kvs"));
         }
 
         [Test]
@@ -59,8 +59,8 @@ namespace kumaS.SimpleKVS.Tests.External.Protobuf {
             var task = InFileKVS<ProtoBufSerializer>.SetAsync("key2", data);
             yield return task.AsEnumerator();
 
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData3_key2.kvs")), Is.True);
-            File.Delete(Path.Combine(Application.dataPath, "SampleData3_key2.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData3_key2.kvs")), Is.True);
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData3_key2.kvs"));
 
             Assert.That(true);
         }
@@ -104,9 +104,9 @@ namespace kumaS.SimpleKVS.Tests.External.Protobuf {
             data.number = 1;
 
             Assert.That(() => InFileKVS4UnityObject<ProtoBufSerializer>.Set("key00", data), Throws.Nothing);
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleMonoData3_key00.kvs")), Is.True);
-            Assert.That(File.ReadAllBytes(Path.Combine(Application.dataPath, "SampleMonoData3_key00.kvs")).Length, Is.Not.Zero);
-            File.Delete(Path.Combine(Application.dataPath, "SampleMonoData3_key00.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleMonoData3_key00.kvs")), Is.True);
+            Assert.That(File.ReadAllBytes(Path.Combine(Application.persistentDataPath, "SampleMonoData3_key00.kvs")).Length, Is.Not.Zero);
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleMonoData3_key00.kvs"));
             Object.Destroy(data);
         }
 
@@ -149,9 +149,9 @@ namespace kumaS.SimpleKVS.Tests.External.Protobuf {
             var task = InFileKVS4UnityObject<ProtoBufSerializer>.SetAsync("key04", data);
             yield return task.AsEnumerator();
 
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleMonoData3_key04.kvs")), Is.True);
-            Assert.That(File.ReadAllBytes(Path.Combine(Application.dataPath, "SampleMonoData3_key04.kvs")).Length, Is.Not.Zero);
-            File.Delete(Path.Combine(Application.dataPath, "SampleMonoData3_key04.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleMonoData3_key04.kvs")), Is.True);
+            Assert.That(File.ReadAllBytes(Path.Combine(Application.persistentDataPath, "SampleMonoData3_key04.kvs")).Length, Is.Not.Zero);
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleMonoData3_key04.kvs"));
             Object.Destroy(data);
 
             Assert.That(true);

@@ -24,9 +24,9 @@ namespace kumaS.SimpleKVS.Tests
             var data = GameObject.Find("SampleData").GetComponent<SampleMonoData>();
 
             Assert.That(() => InFileKVS4UnityObject<JsonUtilitySerializer>.Set("key00", data), Throws.Nothing);
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleMonoData_key00.kvs")), Is.True);
-            Assert.That(File.ReadAllText(Path.Combine(Application.dataPath, "SampleMonoData_key00.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
-            File.Delete(Path.Combine(Application.dataPath, "SampleMonoData_key00.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleMonoData_key00.kvs")), Is.True);
+            Assert.That(File.ReadAllText(Path.Combine(Application.persistentDataPath, "SampleMonoData_key00.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleMonoData_key00.kvs"));
         }
 
         [UnityTest]
@@ -115,9 +115,9 @@ namespace kumaS.SimpleKVS.Tests
             var task = InFileKVS4UnityObject<JsonUtilitySerializer>.SetAsync("key04", data);
             yield return task.AsEnumerator();
 
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleMonoData_key04.kvs")), Is.True);
-            Assert.That(File.ReadAllText(Path.Combine(Application.dataPath, "SampleMonoData_key04.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
-            File.Delete(Path.Combine(Application.dataPath, "SampleMonoData_key04.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleMonoData_key04.kvs")), Is.True);
+            Assert.That(File.ReadAllText(Path.Combine(Application.persistentDataPath, "SampleMonoData_key04.kvs")), Is.EqualTo("{\"id\":\"Simple-KVS\",\"number\":1}"));
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleMonoData_key04.kvs"));
 
             Assert.That(true);
         }

@@ -68,8 +68,8 @@ namespace kumaS.SimpleKVS
         }
 
         /// <summary>
-        /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>保存した値を取得する。保存先はApplication.dataPath。</para>
+        /// <para>Get stored value. Saved at Application.persistentDataPath.</para>
+        /// <para>保存した値を取得する。保存先はApplication.persistentDataPath。</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
@@ -90,7 +90,7 @@ namespace kumaS.SimpleKVS
         /// <exception cref="KeyNotFoundException"></exception>
         public static T Get<T>(string key, bool remove = false)
         {
-            return Get<T>(key, Application.dataPath, remove);
+            return Get<T>(key, Application.persistentDataPath, remove);
         }
 
         /// <summary>
@@ -141,8 +141,8 @@ namespace kumaS.SimpleKVS
         }
 
         /// <summary>
-        /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>保存した値を取得する。保存先はApplication.dataPath。</para>
+        /// <para>Get stored value. Saved at Application.persistentDataPath.</para>
+        /// <para>保存した値を取得する。保存先はApplication.persistentDataPath。</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
@@ -163,7 +163,7 @@ namespace kumaS.SimpleKVS
         /// <exception cref="KeyNotFoundException"></exception>
         public static ValueTask<T> GetAsync<T>(string key, bool remove = false)
         {
-            return GetAsync<T>(key, Application.dataPath, remove);
+            return GetAsync<T>(key, Application.persistentDataPath, remove);
         }
 
         /// <summary>
@@ -217,8 +217,8 @@ namespace kumaS.SimpleKVS
         }
 
         /// <summary>
-        /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>保存した値を取得する。保存先はApplication.dataPath。</para>
+        /// <para>Get stored value. Saved at Application.persistentDataPath.</para>
+        /// <para>保存した値を取得する。保存先はApplication.persistentDataPath。</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
@@ -242,7 +242,7 @@ namespace kumaS.SimpleKVS
         /// </returns>
         public static bool TryGet<T>(string key, out T value, bool remove = false)
         {
-            return TryGet(key, out value, Application.dataPath, remove);
+            return TryGet(key, out value, Application.persistentDataPath, remove);
         }
 
         /// <summary>
@@ -292,8 +292,8 @@ namespace kumaS.SimpleKVS
         }
 
         /// <summary>
-        /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>保存した値を取得する。保存先はApplication.dataPath。</para>
+        /// <para>Get stored value. Saved at Application.persistentDataPath.</para>
+        /// <para>保存した値を取得する。保存先はApplication.persistentDataPath。</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
@@ -313,7 +313,7 @@ namespace kumaS.SimpleKVS
         /// </returns>
         public static (bool isStored, T value) TryGet<T>(string key, bool remove = false)
         {
-            return TryGet<T>(key, Application.dataPath, remove);
+            return TryGet<T>(key, Application.persistentDataPath, remove);
         }
 
         /// <summary>
@@ -363,8 +363,8 @@ namespace kumaS.SimpleKVS
         }
 
         /// <summary>
-        /// <para>Get stored value. Saved at Application.dataPath.</para>
-        /// <para>保存した値を取得する。保存先はApplication.dataPath。</para>
+        /// <para>Get stored value. Saved at Application.persistentDataPath.</para>
+        /// <para>保存した値を取得する。保存先はApplication.persistentDataPath。</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
@@ -384,7 +384,7 @@ namespace kumaS.SimpleKVS
         /// </returns>
         public static ValueTask<(bool isStored, T value)> TryGetAsync<T>(string key, bool remove = false)
         {
-            return TryGetAsync<T>(key, Application.dataPath, remove);
+            return TryGetAsync<T>(key, Application.persistentDataPath, remove);
         }
 
         /// <summary>
@@ -420,8 +420,8 @@ namespace kumaS.SimpleKVS
         }
 
         /// <summary>
-        /// <para>Store value. Saved at Application.dataPath.</para>
-        /// <para>値を保存する。保存先はApplication.dataPath。</para>
+        /// <para>Store value. Saved at Application.persistentDataPath.</para>
+        /// <para>値を保存する。保存先はApplication.persistentDataPath。</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
@@ -441,7 +441,7 @@ namespace kumaS.SimpleKVS
         /// </param>
         public static void Set<T>(string key, T value)
         {
-            Set(key, value, Application.dataPath);
+            Set(key, value, Application.persistentDataPath);
         }
 
         /// <summary>
@@ -477,8 +477,8 @@ namespace kumaS.SimpleKVS
         }
 
         /// <summary>
-        /// <para>Store value. Saved at Application.dataPath.</para>
-        /// <para>値を保存する。保存先はApplication.dataPath。</para>
+        /// <para>Store value. Saved at Application.persistentDataPath.</para>
+        /// <para>値を保存する。保存先はApplication.persistentDataPath。</para>
         /// </summary>
         /// <typeparam name="T">
         /// <para>Data type to get.</para>
@@ -498,7 +498,7 @@ namespace kumaS.SimpleKVS
         /// </param>
         public static ValueTask SetAsync<T>(string key, T value)
         {
-            return SetAsync(key, value, Application.dataPath);
+            return SetAsync(key, value, Application.persistentDataPath);
         }
 
         private static string GetPath(Type t, string rootPath, string key)

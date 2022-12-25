@@ -22,9 +22,9 @@ namespace kumaS.SimpleKVS.Tests.External.MemPack
             };
 
             Assert.That(() => InFileKVS<MemPackSerializer>.Set("key0", data), Throws.Nothing);
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData5_key0.kvs")), Is.True);
-            Assert.That(File.ReadAllBytes(Path.Combine(Application.dataPath, "SampleData5_key0.kvs")).Length, Is.Not.Zero);
-            File.Delete(Path.Combine(Application.dataPath, "SampleData5_key0.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData5_key0.kvs")), Is.True);
+            Assert.That(File.ReadAllBytes(Path.Combine(Application.persistentDataPath, "SampleData5_key0.kvs")).Length, Is.Not.Zero);
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData5_key0.kvs"));
         }
 
         [Test]
@@ -57,9 +57,9 @@ namespace kumaS.SimpleKVS.Tests.External.MemPack
             var task = InFileKVS<MemPackSerializer>.SetAsync("key2", data);
             yield return task.AsEnumerator();
 
-            Assert.That(File.Exists(Path.Combine(Application.dataPath, "SampleData5_key2.kvs")), Is.True);
-            Assert.That(File.ReadAllBytes(Path.Combine(Application.dataPath, "SampleData5_key2.kvs")).Length, Is.Not.Zero);
-            File.Delete(Path.Combine(Application.dataPath, "SampleData5_key2.kvs"));
+            Assert.That(File.Exists(Path.Combine(Application.persistentDataPath, "SampleData5_key2.kvs")), Is.True);
+            Assert.That(File.ReadAllBytes(Path.Combine(Application.persistentDataPath, "SampleData5_key2.kvs")).Length, Is.Not.Zero);
+            File.Delete(Path.Combine(Application.persistentDataPath, "SampleData5_key2.kvs"));
 
             Assert.That(true);
         }
