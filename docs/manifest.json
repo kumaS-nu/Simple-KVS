@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kumaS.SimpleKVS.InFileKVS-1.html",
-          "hash": "JzSQE7d01miry1M/KUGsobNa5T03jczrt2tHBgiQGnI="
+          "hash": "SlqJkgwnjToSY2IlvMLcajT5hr4bG1ZzsGsNsSKwxRY="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kumaS.SimpleKVS.InFileKVS4UnityObject-1.html",
-          "hash": "GD8Ey5W2Q5dMD4dPA37Hyz3uagkPo0pprgzi+FQf6PQ="
+          "hash": "sLTqyA8ZE7wRD1w+w4wfNDQWQM1Tcc1VA79V/qnFlCc="
         }
       },
       "is_incremental": false,
@@ -782,13 +782,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 1
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 57,
-          "skipped_file_count": 57
+          "skipped_file_count": 54
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
