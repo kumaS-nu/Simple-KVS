@@ -1,9 +1,27 @@
 {
     "managedList": [
         {
+            "packageName": "NetSerializer",
+            "fileNames": [
+                "NetSerializer"
+            ]
+        },
+        {
+            "packageName": "protobuf-net",
+            "fileNames": [
+                "protobuf-net"
+            ]
+        },
+        {
             "packageName": "System.Text.Json",
             "fileNames": [
                 "System.Text.Json"
+            ]
+        },
+        {
+            "packageName": "protobuf-net.Core",
+            "fileNames": [
+                "protobuf-net.Core"
             ]
         },
         {
@@ -19,27 +37,15 @@
             ]
         },
         {
-            "packageName": "NetSerializer",
-            "fileNames": [
-                "NetSerializer"
-            ]
-        },
-        {
-            "packageName": "protobuf-net",
-            "fileNames": [
-                "protobuf-net"
-            ]
-        },
-        {
-            "packageName": "protobuf-net.Core",
-            "fileNames": [
-                "protobuf-net.Core"
-            ]
-        },
-        {
             "packageName": "System.Collections.Immutable",
             "fileNames": [
                 "System.Collections.Immutable"
+            ]
+        },
+        {
+            "packageName": "Newtonsoft.Json",
+            "fileNames": [
+                "Newtonsoft.Json"
             ]
         }
     ]
